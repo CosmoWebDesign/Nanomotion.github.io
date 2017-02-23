@@ -12,3 +12,11 @@ a {
 a:hover {
   text-decoration: underline;
 }
+
+.navbar {
+  text-transform: uppercase;
+  padding: 5px;
+  color: #232323 !important;
+  background-color: white;
+  font-size: 22px;
+}
