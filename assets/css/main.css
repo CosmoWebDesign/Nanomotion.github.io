@@ -19,6 +19,7 @@ a:hover {
   color: #232323 !important;
   background-color: white;
   font-size: 22px;
+  margin-bottom: 15px;
 }
 
 .navbar a {
@@ -32,4 +33,9 @@ a:hover {
   color: #595959;
   text-decoration: none;
   transition: 0.3s;
+}
+
+.navbar img {
+  width: 25px;
+  height: 25px;
 }
