@@ -62,3 +62,8 @@ hr {
   margin: 30px 2.5%;
   border: 1px solid #232323;
 }
+
+.caption {
+  color: gray;
+  font-size: 12px;
+}
