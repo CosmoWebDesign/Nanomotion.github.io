@@ -1,4 +1,5 @@
 body {
+  color: #232323;
   margin: 0px;
   font-family: 'Product Sans', 'Segoe UI', Helvetica, Arial;
 }
@@ -45,4 +46,13 @@ a:hover {
 
 h1, h2, h3, h4, h5, h6 {
   font-weight: normal;
+}
+
+.content {
+  padding: 30px;
+}
+
+.title {
+  letter-spacing: 3px;
+  text-transform: uppercase;
 }
