@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Error 404</title>
+    <link rel="stylesheet" href="https://nanomotion.github.io/assets/css/main.css">
+  </head>
+  <body>
+    <center>
+      <h1>Error 404</h1>
+      <p>The requested page <text id="url">{url}</text> could not be found.</p>
+      <script>
+        document.getElementById("url").innerHTML = doument.location.pathname;
+      </script>
+    </center>
+  </body>
+</html>
