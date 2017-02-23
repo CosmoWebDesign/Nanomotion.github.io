@@ -38,4 +38,7 @@ a:hover {
 .navbar img {
   width: 25px;
   height: 25px;
+  position: relative;
+  left:-5px;
+  top: 3.5px;
 }
