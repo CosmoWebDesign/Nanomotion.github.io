@@ -75,3 +75,9 @@ hr {
   background-color: #efefef;
   color: #232323;
 }
+
+.inset {
+  padding: 50px 30px;
+  color: white;
+  background-color: #383838;
+}
