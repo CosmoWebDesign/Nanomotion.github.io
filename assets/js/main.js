@@ -14,4 +14,8 @@ var x = getParameterByName("a");
 
 if (!(x == "1")) {
   document.location = "https://nanomotion.github.io/assets/html/errors/coming-soon.html";
+} else {
+  if (window.console) {
+    console.info("Dev mode active");
+  }
 }
