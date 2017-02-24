@@ -16,11 +16,12 @@ a:hover {
 
 .navbar {
   text-transform: uppercase;
-  padding: 5px;
+  padding: 7.5px;
   color: #232323 !important;
   background-color: white;
   font-size: 22px;
   margin-bottom: 15px;
+  box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.75);
 }
 
 .navbar a {
