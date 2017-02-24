@@ -10,6 +10,11 @@ function getParameterByName(name, url) {
     return decodeURIComponent(results[2].replace(/\+/g, " "));
 }
 
+if (!(document.location.hostname == "nanomotion.github.io")) {
+  window.open("https://nanomotion.github.io" + document.location.pathname);
+  window.close();
+}
+
 /*
 var x = getParameterByName("a");
 
