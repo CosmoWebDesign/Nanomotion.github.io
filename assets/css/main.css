@@ -67,3 +67,7 @@ hr {
   color: gray;
   font-size: 12px;
 }
+
+.footer {
+  padding: 30px 5% 10px;
+}
