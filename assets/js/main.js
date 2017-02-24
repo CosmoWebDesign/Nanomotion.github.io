@@ -10,6 +10,7 @@ function getParameterByName(name, url) {
     return decodeURIComponent(results[2].replace(/\+/g, " "));
 }
 
+/*
 var x = getParameterByName("a");
 
 if (!(x == "1")) {
@@ -19,3 +20,4 @@ if (!(x == "1")) {
     console.info("Dev mode active");
   }
 }
+*/
