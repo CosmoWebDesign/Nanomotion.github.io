@@ -82,3 +82,17 @@ hr {
   color: white;
   background-color: #383838;
 }
+
+.inset-2 {
+  margin: 30px 5%;
+  border: 1px solid #c4c4c4;
+  border-radius: 3px;
+  color: #232323;
+  padding: 20px;
+  transition: 0.3s;
+}
+
+.inset-2:hover {
+  box-shadow: 0 0 6px rgba(139, 174, 252, 0.5);
+  border-color: #7289da;
+}
