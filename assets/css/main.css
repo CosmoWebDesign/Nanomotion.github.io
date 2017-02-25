@@ -18,15 +18,15 @@ a:hover {
 .navbar {
   text-transform: uppercase;
   padding: 7.5px;
-  color: #23272A !important;
-  background-color: white;
+  color: white !important;
+  background-color: #2C2F33;
   font-size: 22px;
   margin-bottom: 15px;
   box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.75);
 }
 
-.navbar a {
-  color: #23272A;
+.navbar a, p {
+  color: white;
   text-decoration: none;
   transition: 0.3s;
   margin: 0px 20px;
