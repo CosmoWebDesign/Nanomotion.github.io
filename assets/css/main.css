@@ -140,6 +140,7 @@ hr {
 }
 
 button {
+	font-family: 'Product Sans', 'Segoe UI', Helvetica, Arial;
   cursor: pointer;
   text-transform: uppercase;
 	padding: 15px 25px;
