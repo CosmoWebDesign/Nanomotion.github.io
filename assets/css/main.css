@@ -128,3 +128,13 @@ hr {
 	color: #232323;
 	text-decoration: none !important;
 }
+
+.inset-2 {
+	width: 80%;
+	margin: 30px auto;
+	padding: 20px;
+	color: #232323;
+	background-color: #b2b2b2;
+  border: 1px solid #b2b2b2;
+  border-radius: 4px;
+}
