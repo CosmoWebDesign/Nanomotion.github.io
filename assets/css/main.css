@@ -138,3 +138,13 @@ hr {
   border: 1px solid #99AAB5;
   border-radius: 4px;
 }
+
+button {
+	padding: 5px;
+	color: white;
+	background-color: #28B3CA;
+	border: 1px solid #28B3CA;
+	border-radius: 4px;
+	margin: 5px;
+	box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.75);
+}
