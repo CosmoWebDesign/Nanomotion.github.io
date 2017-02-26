@@ -76,7 +76,7 @@ hr {
 }
 
 .footer {
-  padding: 30px 0px;
+  padding: 10px 0px;
   background-color: white;
   color: #23272A !important;
 }
@@ -87,7 +87,7 @@ hr {
 
 .footer hr {
   margin: 15px 0px;
-  border: 1px solid #23272A !important;
+  border: 1px solid #8493A8;
 }
 
 .inset {
