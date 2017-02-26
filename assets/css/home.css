@@ -4,6 +4,13 @@ body {
   font-family: 'Product Sans', 'Segoe UI', Helvetica, Arial;
   background: #28B3CA url("https://nanomotion.github.io/assets/img/bg.svg") no-repeat center center; 
   background-size: cover;
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+.main {
+	flex: 1 0 auto;
 }
 
 a {
