@@ -72,7 +72,7 @@ hr {
 .footer {
   padding: 30px 5%;
   background-color: white;
-  color: #23272A;
+  color: #23272A !important;
 }
 
 .footer hr {
