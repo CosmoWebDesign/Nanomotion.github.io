@@ -28,14 +28,13 @@
         <button style="width: 200px;" onClick="document.location = 'https://github.com/Nanomotion';">GitHub Profile</button><br>
         <p style="margin-top: 2.5%;"><img src="https://nanomotion.github.io/assets/img/exclaim-white.svg" width="25" style="position: relative; top: 5.5px; left: -1px;"><strong>ProTip:</strong> <text id="pro-tip">Loading ProTip...</text></p>
         <script>
-          function myFunction() {
-            var x = Math.floor((Math.random() * 10) + 1);
-            if (x > 5) {
-              document.getElementById("pro-tip").innerHTML = "Click on the menu icon by the top-right of the page to view all of the pages on this website.";
-            } else {
-              document.getElementById("pro-tip").innerHTML = "You can also connect using nanomotion.xyz!";
-            }
-          }</script>
+          var x = Math.floor((Math.random() * 10) + 1);
+          if (x > 5) {
+            document.getElementById("pro-tip").innerHTML = "Click on the menu icon by the top-right of the page to view all of the pages on this website.";
+          } else {
+            document.getElementById("pro-tip").innerHTML = "You can also connect using nanomotion.xyz!";
+          }
+        </script>
       </center>
     </div>
     <div class="footer">
