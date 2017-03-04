@@ -122,31 +122,20 @@ button:hover {
 }
 
 @media (max-width: 550px) {
-	body {
-    font-size: 2em !important;
-  }
-  
-  .navbar {
-    font-size: 2em !important;
-  }
-  
-  .navbar img {
-    width: 50px !important;
-    height: 50px !important;
-  }
-  
-  button {
-    font-size: 25px !important;
-  }
-  
-  #exclaim {
-    width: 50px !important;
-    height: 50px !important;
+	#pro-tip-full {
+    display: none !important;
   }
   
   #about {
     display: none !important;
   }
+  
+  #help-link {
+    display: none !important;
+  }
+  
+  #proj-link {
+    display: none !important;
 }
   
   
