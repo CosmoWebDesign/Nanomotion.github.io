@@ -136,6 +136,15 @@ button:hover {
   
   #proj-link {
     display: none !important;
+  }
+  
+	#social-media {
+    float: initial !important;
+  }
+  
+  #footer-logo {
+    float: initial !important;
+  }
 }
   
   
