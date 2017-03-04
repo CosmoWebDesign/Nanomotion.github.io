@@ -120,3 +120,33 @@ button:hover {
   color: white;
 	background-color: #0081D5;
 }
+
+@media (max-width: 550px) {
+	body {
+    font-size: 2em !important;
+  }
+  
+  .navbar {
+    font-size: 2em !important;
+  }
+  
+  .navbar img {
+    width: 50px !important;
+    height: 50px !important;
+  }
+  
+  button {
+    font-size: 25px !important;
+  }
+  
+  #exclaim {
+    width: 50px !important;
+    height: 50px !important;
+  }
+  
+  #about {
+    display: none !important;
+  }
+}
+  
+  
