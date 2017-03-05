@@ -149,6 +149,10 @@ button:hover {
   #footer-logo {
     float: initial !important;
   }
+  
+  #shields {
+    margin-top: 5%;
+  }
 }
   
   
