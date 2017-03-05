@@ -121,6 +121,10 @@ button:hover {
 	background-color: #0081D5;
 }
 
+#shields {
+  display: inline-block;
+}
+
 @media (max-width: 550px) {
 	#pro-tip-full {
     display: none !important;
