@@ -10,7 +10,7 @@ function getParameterByName(name, url) {
     return decodeURIComponent(results[2].replace(/\+/g, " "));
 }
 
-var fwlink = getParameterByName(a);
+var fwlink = getParameterByName("a");
 
 if (fwlink == "1") {
   document.location = "http://help.nanomotion.xyz/topics/software/nano-os";
