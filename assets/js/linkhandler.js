@@ -17,5 +17,5 @@ if (fwlink == "1") {
 } else if (fwlink == "2") {
   document.location = "https://github.com/Nanomotion/Nano-OS/issues";
 } else {
-  document.location = "http://url.nanomotion.xyz/invalid-url.html";
+  document.location = "https://nanomotion.github.io/assets/urls/invalid-url.html";
 }
