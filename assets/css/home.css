@@ -96,8 +96,8 @@ hr {
 
 .inset {
   margin: 30px 0px;
-  padding: 30px;
-  background-color: white;
+  padding: 10px;
+  background-color: #99AAB5;
   border: 1px solid #23272A;
   border-radius: 4px;
   color: #23272A;
@@ -127,7 +127,7 @@ button:hover {
 }
 
 .context {
-	color: black;
+	color: #23272A;
   background-color: white;
   padding: 2.5%;
 }
