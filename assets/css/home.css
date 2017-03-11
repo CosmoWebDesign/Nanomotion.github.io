@@ -101,6 +101,7 @@ hr {
   border: 1px solid #23272A;
   border-radius: 4px;
   color: #23272A;
+	text-align: left;
 }
 
 button {
