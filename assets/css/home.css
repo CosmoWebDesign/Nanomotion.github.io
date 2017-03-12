@@ -3,7 +3,7 @@
 body {
   margin: 0px;
   font-family: 'Product Sans', 'Segoe UI', Helvetica, Arial;
-  background: #2C2F33 url("https://nanomotion.github.io/assets/img/bg2.png") repeat left top; 
+  background: #2C2F33 url("https://nanomotion.github.io/assets/img/bg2.PNG") repeat left top; 
   background-size: cover;
   display: flex;
   min-height: 100vh;
