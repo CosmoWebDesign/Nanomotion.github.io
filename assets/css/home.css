@@ -110,14 +110,24 @@ hr {
 }*/
 
 .inset {
-  margin: 30px 5%;
-  padding: 10px;
+  height: 240px;
+  width: 260px;
+  padding: 22px;
+  margin: 22px 16px 0px;
   background-color: white;
   border: 1px solid #cccccc;
   border-radius: 4px;
   color: #23272A;
 	text-align: left;
 	transition: 0.3s;
+  font-size: 16px;
+  display: flex;
+  flex-direction: column;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-box-align: center;
+  align-items: center;
+  transition: 0.3s;
 }
 
 .inset:hover {
@@ -165,6 +175,19 @@ button:hover {
   background-color: #f7f7f7;
   padding: 2.5%;
   transition: 0.3s;
+}
+
+.inset-area {
+	margin: 10px 5%;
+	align-items: center;
+  justify-content: center;
+  align-items: center;
+	display: flex;
+  -webkit-box-direction: normal;
+  -webkit-box-pack: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+  -webkit-box-align: stretch;
 }
 
 @media (max-width: 550px) {
