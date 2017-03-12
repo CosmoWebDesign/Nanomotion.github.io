@@ -3,7 +3,7 @@
 body {
   margin: 0px;
   font-family: 'Product Sans', 'Segoe UI', Helvetica, Arial;
-  background: #2C2F33 url("https://nanomotion.github.io/assets/img/bg.svg") no-repeat center center; 
+  background: #2C2F33 url("https://nanomotion.github.io/assets/img/bg2.png") repeat left top; 
   background-size: cover;
   display: flex;
   min-height: 100vh;
@@ -21,6 +21,10 @@ a {
   color: white;
   text-decoration: none;
   transition: 0.3s;
+}
+
+a:hover {
+  text-decoration: none;
 }
 
 .navbar {
