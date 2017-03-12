@@ -11,7 +11,27 @@ body {
   font-weight: normal;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1 {
+	font-weight: normal;
+}
+
+h2 {
+	font-weight: normal;
+}
+
+h3 {
+	font-weight: normal;
+}
+
+h4 {
+	font-weight: normal;
+}
+
+h5 {
+	font-weight: normal;
+}
+
+h6 {
 	font-weight: normal;
 }
 
@@ -90,7 +110,7 @@ hr {
 }*/
 
 .inset {
-  margin: 30px 0px;
+  margin: 30px 5%;
   padding: 10px;
   background-color: white;
   border: 1px solid #cccccc;
@@ -103,6 +123,18 @@ hr {
 .inset:hover {
   box-shadow: 0 0 6px rgba(66,134,244, 0.5);
   border-color: #4286f4;
+}
+
+.inset .right-content {
+	text-align: right;
+	width: 45%;
+	max-width: 45%;
+}
+
+.inset .left-content {
+	text-align: left;
+	width: 45%;
+	max-width: 45%;
 }
 
 button {
@@ -167,6 +199,10 @@ button:hover {
   .main {
     margin-bottom: 47%;
   }
+	
+	.inset {
+		margin: 40px 0px;
+	}
 }
   
   
