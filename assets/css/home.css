@@ -23,10 +23,6 @@ a {
   transition: 0.3s;
 }
 
-a:hover {
-  text-decoration: underline;
-}
-
 .navbar {
   text-transform: uppercase;
   padding: 7.5px;
