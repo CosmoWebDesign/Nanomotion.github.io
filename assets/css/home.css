@@ -93,6 +93,12 @@ hr {
   border-radius: 4px;
   color: #23272A;
 	text-align: left;
+	transition: 0.3s;
+}
+
+.inset:hover {
+  box-shadow: 0 0 6px rgba(66,134,244, 0.5);
+  border-color: #4286f4;
 }
 
 button {
@@ -123,11 +129,6 @@ button:hover {
   background-color: #f7f7f7;
   padding: 2.5%;
   transition: 0.3s;
-}
-
-.context:hover {
-  box-shadow: 0 0 6px rgba(66,134,244, 0.5);
-  border-color: #4286f4;
 }
 
 @media (max-width: 550px) {
