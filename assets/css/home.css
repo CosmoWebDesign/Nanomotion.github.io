@@ -215,5 +215,16 @@ button:hover {
 		margin: 40px 0px;
 	}
 }
-  
-  
+
+.text-inset {
+  background-color: #7289DA;
+  color: white;
+  border: 1px solid #7289DA;
+  border-radius: 4px;
+  text-transform: uppercase;
+  font-size: 12px;
+  padding: 1px 2px;
+  position: relative;
+  left: 3px;
+  vertical-align: middle;
+ }
