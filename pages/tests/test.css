@@ -1,0 +1,7 @@
+.text-inset {
+  background-color: #7289DA;
+  color: white;
+  border: 1px solid #7289DA;
+  border-radius: 4px;
+  text-transform: uppercase;
+ }
