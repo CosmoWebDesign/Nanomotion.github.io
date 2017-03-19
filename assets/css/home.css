@@ -54,6 +54,7 @@ a:hover {
 
 .navbar {
   /*text-transform: uppercase;*/
+  margin: 0px 5%;
   padding: 7.5px;
   color: white !important;
   font-size: 22px;
