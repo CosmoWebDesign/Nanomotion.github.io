@@ -36,7 +36,11 @@
           return "unknown";
         }
       }
-      console.log(getBrowser());
+      
+      if (window.console) {
+        console.log(getBrowser() + " " + navigator.userAgent);
+      }
+      
       if (!((getBrowser() == "unknown") || (getBrowser() == "IE"))) {
         var x = document.getElementById("unsupported-browser-notif");
         x.style.display = "none";
