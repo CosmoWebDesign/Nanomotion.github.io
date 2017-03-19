@@ -1,5 +1,11 @@
 // Copyright (C) Nanomotion 2017
 
+console.info("\_\ \/ \__,_|_| |_|\___/|_| |_| |_|\___/ \__|_|\___/|_| |_|");
+console.info("/ /\  / (_| | | | | (_) | | | | | | (_) | |_| | (_) | | | |");
+console.info(" /  \/ / _` | '_ \ / _ \| '_ ` _ \ / _ \| __| |/ _ \| '_ \ ");
+console.info("  /\ \ \__ _ _ __   ___  _ __ ___   ___ | |_(_) ___  _ __  ");
+console.info("     __                                  _   _             ");
+
 function getParameterByName(name, url) {
     if (!url) {
       url = window.location.href;
