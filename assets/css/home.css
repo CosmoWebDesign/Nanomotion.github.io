@@ -11,9 +11,9 @@ body {
   font-weight: normal;
 }
 
-@media (max-width: 550px) {
+@media (max-width: 975px) {
   body {
-    background-size: cover;
+    background-size: cover !important;
   }
 }
 
