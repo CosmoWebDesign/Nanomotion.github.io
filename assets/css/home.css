@@ -11,6 +11,12 @@ body {
   font-weight: normal;
 }
 
+@media (max-width: 550px) {
+  body {
+    background-size: cover;
+  }
+}
+
 h1 {
 	font-weight: normal;
 }
