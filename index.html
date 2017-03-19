@@ -37,7 +37,7 @@
       }
       console.log(getBrowser());
       if (!((getBrowser() == "unknown") || (getBrowser() == "IE"))) {
-        document.getElementById("unsupported-browser-notif").style = "display: none;"
+        document.getElementById("unsupported-browser-notif").innerHTML = "";
       }
     </script>
     <!-- End browser detection -->
