@@ -35,8 +35,9 @@
           return "unknown";
         }
       }
+      console.log(getBrowser());
       if (!((getBrowser() == "unknown") || (getBrowser() == "IE"))) {
-        document.getElementById("unsupported-browser-notif").style.display = "none";
+        document.getElementByClass("unsupported-browser-notif").style.display = 'none';
       }
     </script>
     <!-- End browser detection -->
