@@ -201,7 +201,8 @@ button:hover {
   }
   
   .main {
-    margin-bottom: 47%;
+    margin-bottom: 42.5%;
+    -webkit-margin-after: 42.5%;
   }
 	
 	.inset {
