@@ -37,8 +37,8 @@ h6 {
 
 .main {
 	flex: 1 0 auto;
-  margin-bottom: 25%;
--webkit-margin-after: 25%;
+  margin-bottom: 22.5%;
+-webkit-margin-after: 22.5%;
   color: white !important;
 }
 
@@ -54,7 +54,7 @@ a:hover {
 
 .navbar {
   /*text-transform: uppercase;*/
-  margin: 0px 5%;
+  margin: 10px 5%;
   padding: 7.5px;
   color: white !important;
   font-size: 22px;
