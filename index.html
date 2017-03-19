@@ -18,8 +18,31 @@
     <meta name="keywords" content="nanomotion, github, nanomotion.github.io, games">
     <meta name="description" content="Nanomotion.github.io | Games, GitHub Projects, and more">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Begin browser detection -->
+    <script>
+      function getBrowser() {
+        if( navigator.userAgent.indexOf("Chrome") != -1 ) {
+          return "Chrome";
+        } else if( navigator.userAgent.indexOf("Opera") != -1 ) {
+          return "Opera";
+        } else if( navigator.userAgent.indexOf("MSIE") != -1 ) {
+          return "IE";
+        } else if( navigator.userAgent.indexOf("Firefox") != -1 ) {
+          return "Firefox";
+        } else {
+          return "unknown";
+        }
+      }
+      if (getBrowser() == "unknown" or getBrowser() == "IE") {
+        document.getElementById("unsupported-browser-notif").style.display = "block";
+      } else {
+        document.getElementById("unsupported-browser-notif").style.display = "none";
+      }
+    </script>
+    <!-- End browser detection -->
   </head>
   <body>
+    <div class="unsupported-browser-notif" id="unsupported-browser-notif" style="display: none;"><strong>Hey there!</strong> It seems that you're using an unsupported browser. Please upgrade to a newer browser to receive the best possible experience here.<span onclick="this.parentElement.style.display='none';" style="float: right;">&times;</span></div>
     <div class="navbar"><a href="https://nanomotion.github.io"><img src="https://nanomotion.github.io/assets/img/logo.svg"><strong>Nanomotion</strong></a>&nbsp;<a id="proj-link" style="float: right; padding-top: 3.5px;" href="#projects">Projects</a> <a id="help-link" style="float: right; padding-top: 3.5px;" href="https://nanomotion.github.io/pages/help">Help</a></div>
     <div class="main">  
       <center>
