@@ -227,6 +227,7 @@ button:hover {
   position: relative;
   left: 3px;
   vertical-align: middle;
+	letter-spacing: 0px;
  }
 
 .unsupported-browser-notif {
