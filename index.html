@@ -20,34 +20,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
   </head>
   <body>
-    <div class="unsupported-browser-notif" id="unsupported-browser-notif" style="display: block;"><span onclick="this.parentElement.style.display='none';" style="float: right; cursor: pointer;">&times;</span><strong>Hey there!</strong> It seems that you're using an unsupported browser. Please use a different browser such as <u><a href="https://www.google.com/chrome/">Google Chrome</a></u> or <u><a href="https://www.mozilla.com/firefox">Firefox</a></u>.</div>
+    <div class="unsupported-browser-notif" id="unsupported-browser-notif"><span onclick="this.parentElement.style.display='none';" style="float: right; cursor: pointer;">&times;</span><strong>Hey there!</strong> It seems that you're using an unsupported browser. Please use a different browser such as <u><a href="https://www.google.com/chrome/">Google Chrome</a></u> or <u><a href="https://www.mozilla.com/firefox">Firefox</a></u>.</div>
     <!-- Begin browser detection -->
-    <script>
-      function getBrowser() {
-        if( navigator.userAgent.indexOf("Chrome") != -1 ) {
-          return "Chrome";
-        } else if( navigator.userAgent.indexOf("Opera") != -1 ) {
-          return "Opera";
-        } else if( navigator.userAgent.indexOf("MSIE") != -1 ) {
-          return "IE";
-        } else if( navigator.userAgent.indexOf("Firefox") != -1 ) {
-          return "Firefox";
-        } else if( navigator.userAgent.indexOf("Safari") != -1 ) {
-          return "Safari";
-        } else {
-          return "unknown";
-        }
-      }
-      
-      if (window.console) {
-        console.log(getBrowser() + " " + navigator.userAgent);
-      }
-      
-      if (!((getBrowser() == "unknown") || (getBrowser() == "IE"))) {
-        var x = document.getElementById("unsupported-browser-notif");
-        x.style.display = "none";
-      }
-    </script>
+    <script async src="https://nanomotion.github.io/assets/js/browser-detection.js"></script>
     <!-- End browser detection -->
     <div class="navbar"><a href="https://nanomotion.github.io"><img src="https://nanomotion.github.io/assets/img/logo.svg"><strong>Nanomotion</strong></a>&nbsp;<a id="proj-link" style="float: right; padding-top: 3.5px;" href="#projects">Projects</a> <a id="help-link" style="float: right; padding-top: 3.5px;" href="https://nanomotion.github.io/pages/help">Help</a></div>
     <div class="main">  
