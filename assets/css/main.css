@@ -20,7 +20,7 @@ a:hover {
 .navbar {
   padding: 7.5px;
   color: white !important;
-  background-color: #2C2F33;
+  background-color: #333;
   font-size: 22px;
   margin-bottom: 15px;
   box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.75);
@@ -34,9 +34,7 @@ a:hover {
 }
 
 .navbar a:hover {
-  color: #99AAB5;
-  text-decoration: none;
-  transition: 0.3s;
+  cursor: pointer;
 }
 
 .navbar img {
