@@ -196,3 +196,10 @@ input[type=text]:focus {
   left: 3px;
   vertical-align: middle;
  }
+
+.unsupported-browser-notif {
+  background-color: #0081D5;
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
