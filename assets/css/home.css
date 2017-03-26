@@ -237,13 +237,13 @@ button:hover {
   text-align: center;
 }
 
-.os-icons {
+.os-icon {
 	width: 32px;
   height: 32px;
   margin: 0px 5px;
 }
 
-.os-icons-container {
+.os-icon-container {
   vertical-align: bottom;
   padding: 0px;
   margin: 0px;
