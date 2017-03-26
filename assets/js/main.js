@@ -59,7 +59,7 @@ if (!(x == "1")) {
 window.onload = function () {
     try {
         var x = document.getElementById('unsupported-browser-notif');
-        x.innerHTML = "<strong>Hey there!</strong> The help center is going away on April 1, 2017. <a href='https://nanomotion.github.io/pages/help/removed.html'>More info</a>";
+        x.innerHTML = "<strong>Hey there!</strong> The help center is going away on April 1, 2017. <a href='https://nanomotion.github.io/pages/help/removed.html' style='color: white; text-decoration: underline;'>More info</a>";
         x.style.display = "block";
     }
     catch(e) {
