@@ -38,6 +38,24 @@ function getCookie(cname) {
     return "";
 }
 
+var forceLanguage = function(lang) {
+    try {
+        var x = document.getElementById('unsupported-browser-notif');
+        if (lang.indexOf("pt") != -1) {
+            x.innerHTML = "<span onclick='this.parentElement.style.display=\"none\";' style='float: right; cursor: pointer;'>&times;</span><strong>Olá!</strong> Infelizmente este site não é suportado no seu idioma.";
+        } else if (lang.indexOf("es") != -1) {
+            x.innerHTML = "<span onclick='this.parentElement.style.display=\"none\";' style='float: right; cursor: pointer;'>&times;</span><strong>¡Hola!</strong> Desafortunadamente este sitio web no es compatible con su idioma.";
+        }
+        x.style.display = "block";
+        window.navigator.language = lang
+        window.navigator.userLanguage = lang
+        var language = lang
+    }
+    catch(e) {
+        console.error("Language change failed: " + e);
+    }
+}
+
 console.log("Loaded functions");
 
 if (!(document.location.hostname == "nanomotion.github.io")) {
@@ -82,23 +100,5 @@ if (!(language.indexOf("en") != -1)) {
     }
     catch(e) {
         console.info("document.getElementById('unsupported-browser-notif'); failed: " + e);
-    }
-}
-
-var forceLanguage = function(lang) {
-    try {
-        var x = document.getElementById('unsupported-browser-notif');
-        if (lang.indexOf("pt") != -1) {
-            x.innerHTML = "<span onclick='this.parentElement.style.display=\"none\";' style='float: right; cursor: pointer;'>&times;</span><strong>Olá!</strong> Infelizmente este site não é suportado no seu idioma.";
-        } else if (lang.indexOf("es") != -1) {
-            x.innerHTML = "<span onclick='this.parentElement.style.display=\"none\";' style='float: right; cursor: pointer;'>&times;</span><strong>¡Hola!</strong> Desafortunadamente este sitio web no es compatible con su idioma.";
-        }
-        x.style.display = "block";
-        window.navigator.language = lang
-        window.navigator.userLanguage = lang
-        var language = lang
-    }
-    catch(e) {
-        console.error("Language change failed: " + e);
     }
 }
