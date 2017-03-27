@@ -69,13 +69,13 @@ window.onload = function () {
 
 var language = window.navigator.userLanguage || window.navigator.language;
 
-if (!(language.indexOf("en") != -1) {
+if (!(language.indexOf("en") != -1)) {
     try {
         var x = document.getElementById('unsupported-browser-notif');
-        if language.indexOf("pt") != -1 {
+        if (language.indexOf("pt") != -1) {
             x.innerHTML = "<span onclick='this.parentElement.style.display=\"none\";' style='float: right; cursor: pointer;'>&times;</span><strong>Olá!</strong> Infelizmente este site não é suportado no seu idioma.";
             x.style.display = "block";
-        } else if language.indexOf("es") != -1 {
+        } else if (language.indexOf("es") != -1) {
             x.innerHTML = "<span onclick='this.parentElement.style.display=\"none\";' style='float: right; cursor: pointer;'>&times;</span><strong>¡Hola!</strong> Desafortunadamente este sitio web no es compatible con su idioma.";
             x.style.display = "block";
         }
@@ -88,18 +88,17 @@ if (!(language.indexOf("en") != -1) {
 var forceLanguage = function(lang) {
     try {
         var x = document.getElementById('unsupported-browser-notif');
-        if lang.indexOf("pt") != -1 {
+        if (lang.indexOf("pt") != -1) {
             x.innerHTML = "<span onclick='this.parentElement.style.display=\"none\";' style='float: right; cursor: pointer;'>&times;</span><strong>Olá!</strong> Infelizmente este site não é suportado no seu idioma.";
-            x.style.display = "block";
-        } else if lang.indexOf("es") != -1 {
+        } else if (lang.indexOf("es") != -1) {
             x.innerHTML = "<span onclick='this.parentElement.style.display=\"none\";' style='float: right; cursor: pointer;'>&times;</span><strong>¡Hola!</strong> Desafortunadamente este sitio web no es compatible con su idioma.";
-            x.style.display = "block";
         }
+        x.style.display = "block";
         window.navigator.language = lang
         window.navigator.userLanguage = lang
         var language = lang
     }
     catch(e) {
-        console.info("Language change failed: " + e);
+        console.error("Language change failed: " + e);
     }
 }
