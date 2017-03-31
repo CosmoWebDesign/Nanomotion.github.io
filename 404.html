@@ -14,7 +14,7 @@
       <script>
         document.getElementById("url").innerHTML = document.location.pathname;
         if (document.location.pathname.indexOf("/pages/help") != -1) {
-          document.location = "https://nanomotion.github.io/assets/html/errors/401.html";
+          document.location = "https://nanomotion.github.io/assets/html/errors/401.html?href=" + String(document.location.pathname);
         }
       </script>
     </center>
