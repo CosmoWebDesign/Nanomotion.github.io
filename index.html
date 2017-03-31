@@ -132,10 +132,10 @@
         <button onClick="document.location = 'https://github.com/Nanomotion?tab=repositories';">All Projects</button>
       </center>
     </div>
-    <div id="news" class="context">
+    <div id="news-container" class="context">
       <center>
         <h1 class="title">News</h1>
-        <p style="padding: 10px 2.5%;" id="news">Fetching news...</p>
+        <p style="padding: 10px 2.5%;" id="news"><img src="https://nanomotion.github.io/assets/img/spin.gif" height="19" width="19" alt="">Fetching news...</p>
         <script async>
           try {
             var news = new XMLHttpRequest()
@@ -151,9 +151,10 @@
                     }
                 }
             }
-            rawFile.send(null);
-          } catch {
-            document.getElementById("news").innerHTML = "Error while getting news: " + String(news.status);
+            news.send(null);
+          } 
+          catch(e) {
+            document.getElementById("news").innerHTML = "Error while getting news: " + String(e);
           }
         </script>
       </center>
