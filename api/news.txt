@@ -1,1 +1,1 @@
-NanoIDE version 1.2.0 (The Customization Update) is coming out soon! Expect lots of new features in the new update.
+NanoIDE version 1.2.0 (The Customization Update) is coming out soon! Expect lots of features in the new update. <a href="https://github.com/Nanomotion/Nano-IDE">View NanoIDE</a>
