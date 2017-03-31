@@ -132,31 +132,39 @@
         <button onClick="document.location = 'https://github.com/Nanomotion?tab=repositories';">All Projects</button>
       </center>
     </div>
-    <div id="news-container" class="context">
+    <div class="context">
       <center>
-        <h1 class="title">News</h1>
-        <p style="padding: 10px 2.5%;" id="news"><img src="https://nanomotion.github.io/assets/img/spin.gif" height="19" width="19" alt="">Fetching news...</p>
-        <script async>
-          try {
-            var news = new XMLHttpRequest()
-            news.open("GET", "https://nanomotion.github.io/api/news.txt", false);
-            news.onreadystatechange = function ()
-            {
-                if(news.readyState === 4)
-                {
-                    if(news.status === 200 || news.status == 0)
-                    {
-                        var allText = news.responseText;
-                        document.getElementById("news").innerHTML = allText;
-                    }
+        <div id="news-container" class="container" style="margin: 10px 10%;">
+          <div class="container-title">
+            <h1 class="title">News</h1>
+          </div>
+          <div class="container-content">
+            <center>
+              <p style="padding: 10px 2.5%;" id="news"><img src="https://nanomotion.github.io/assets/img/spin.gif" height="19" width="19" alt="">Fetching news...</p>
+              <script async>
+                try {
+                  var news = new XMLHttpRequest()
+                  news.open("GET", "https://nanomotion.github.io/api/news.txt", false);
+                  news.onreadystatechange = function ()
+                  {
+                      if(news.readyState === 4)
+                      {
+                          if(news.status === 200 || news.status == 0)
+                          {
+                              var allText = news.responseText;
+                              document.getElementById("news").innerHTML = allText;
+                          }
+                      }
+                  }
+                  news.send(null);
+                } 
+                catch(e) {
+                  document.getElementById("news").innerHTML = "Error while getting news: " + String(e);
                 }
-            }
-            news.send(null);
-          } 
-          catch(e) {
-            document.getElementById("news").innerHTML = "Error while getting news: " + String(e);
-          }
-        </script>
+              </script>
+            </center>
+          </div>
+        </div>
       </center>
     </div>
     <div class="footer">
