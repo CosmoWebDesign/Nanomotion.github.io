@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Error 401</title>
+    <link rel="stylesheet" href="https://nanomotion.github.io/assets/css/main.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  </head>
+  <body>
+    <center>
+      <h1>401!</h1>
+      <h2>That page doesn't exist anymore.</h2>
+      <br>
+      <p style="color: gray;">The requested page <text id="url">{url}</text> was removed.</p>
+      <br>
+      <div id="specials"></div>
+      <script>
+        function getParameterByName(name, url) {
+            if (!url) {
+              url = window.location.href;
+            }
+            name = name.replace(/[\[\]]/g, "\\$&");
+            var regex = new RegExp("[?&]" + name + "(=([^&#]*)|&|#|$)"),
+                results = regex.exec(url);
+            if (!results) return null;
+            if (!results[2]) return '';
+            return decodeURIComponent(results[2].replace(/\+/g, " "));
+        }
+        x = getParameterByName("href");
+        document.getElementById("url").innerHTML = x;
+        y = getElementById("specials");
+        if (x.indexOf("/pages/help") != -1) {
+          y.innerHTML = "<a href='https://nanomotion.github.io/assets/html/faq/help-removal.html'>More info</a>";
+        }
+      </script>
+    </center>
+  </body>
+</html>
