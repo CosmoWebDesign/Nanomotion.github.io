@@ -102,3 +102,23 @@ if (!(language.indexOf("en") != -1)) {
         console.info("document.getElementById('unsupported-browser-notif'); failed: " + e);
     }
 }
+
+try {
+    var getIP = new XMLHttpRequest()
+    getIP.open("GET", "https://api.ipify.org", false);
+    getIP.onreadystatechange = function ()
+    {
+        if(getIP.readyState === 4)
+        {
+            if(getIP.status === 200 || news.status == 0)
+            {
+                var userIP = getIP.responseText;
+            }
+        }
+    }
+    getIP.send(null);
+} catch(e) {
+    if (window.console) {
+      console.error("Error while getting IP: " + String(e));
+    }
+}
