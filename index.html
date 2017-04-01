@@ -26,12 +26,10 @@
     <!-- End browser detection -->
     <div class="navbar"><a href="https://nanomotion.github.io"><img src="https://nanomotion.github.io/assets/img/logo.svg"><strong>Nanomotion</strong></a>&nbsp;<a id="proj-link" style="float: right; padding-top: 3.5px;" href="#projects">Projects</a> <a id="help-link" style="float: right; padding-top: 3.5px;" href="https://nanomotion.github.io/pages/help">Help</a></div>
     <div class="main">  
-      <center>
-        <h1 class="title">Nanomotion</h1>
-        <p id="about" style="margin: auto 15%;">Leading the computer software industry in Visual Basic since 2015.</p><br><br>
-        <button style="width: 200px;" onClick="document.location = '#projects';">Projects</button>&nbsp;
-        <button style="width: 200px;" onClick="document.location = 'https://github.com/Nanomotion?tab=repositories';">GitHub</button><br>
-      </center>
+      <h1 class="title">Nanomotion</h1>
+      <p id="about" style="margin: auto 15%;">Leading the computer software industry in Visual Basic since 2015.</p><br><br>
+      <button style="width: 200px;" onClick="document.location = '#projects';">Projects</button>&nbsp;
+      <button style="width: 200px;" onClick="document.location = 'https://github.com/Nanomotion?tab=repositories';">GitHub</button><br>
     </div>
     <!-- Begin Projects -->
     <div class="context">
@@ -138,31 +136,31 @@
           <div class="container-header">
             <h1 class="title">News</h1>
           </div>
-          <div class="container-content">
-            <center>
-              <p style="padding: 10px 2.5%;" id="news"><img src="https://nanomotion.github.io/assets/img/spin.gif" height="19" width="19" alt="">Fetching news...</p>
-              <script async>
-                try {
-                  var news = new XMLHttpRequest()
-                  news.open("GET", "https://nanomotion.github.io/api/news.txt", false);
-                  news.onreadystatechange = function ()
-                  {
-                      if(news.readyState === 4)
-                      {
-                          if(news.status === 200 || news.status == 0)
-                          {
-                              var allText = news.responseText;
-                              document.getElementById("news").innerHTML = allText;
-                          }
-                      }
-                  }
-                  news.send(null);
-                } 
-                catch(e) {
-                  document.getElementById("news").innerHTML = "Error while getting news: " + String(e);
+          <div class="container-content" id="news-container-content">
+            <p style="padding: 10px 2.5%;" id="news"><img src="https://nanomotion.github.io/assets/img/spin.gif" height="19" width="19" alt="">Fetching news...</p>
+            <script async>
+              try {
+                var news = new XMLHttpRequest()
+                news.open("GET", "https://nanomotion.github.io/api/news.txt", false);
+                news.onreadystatechange = function ()
+                {
+                    if(news.readyState === 4)
+                    {
+                        if(news.status === 200 || news.status == 0)
+                        {
+                            var allText = news.responseText;
+                            document.getElementById("news").innerHTML = allText;
+                        }
+                    }
                 }
-              </script>
-            </center>
+                news.send(null);
+              } 
+              catch(e) {
+                if (window.console) {
+                  console.error("Error while getting news: " + String(e));
+                document.getElementById("news").innerHTML = "Error while getting news: " + String(e);
+              }
+            </script>
           </div>
         </div>
       </center>
