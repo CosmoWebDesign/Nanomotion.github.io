@@ -122,3 +122,26 @@ try {
       console.error("Error while getting IP: " + String(e));
     }
 }
+
+try {
+    var news = new XMLHttpRequest()
+    news.open("GET", "https://nanomotion.github.io/api/news.txt", false);
+    news.onreadystatechange = function ()
+    {
+        if(news.readyState === 4)
+        {
+            if(news.status === 200 || news.status == 0)
+            {
+                var allText = news.responseText;
+                document.getElementById("news").innerHTML = allText;
+            }
+        }
+    }
+    news.send(null);
+    } 
+    catch(e) {
+    if (window.console) {
+      console.error("Error while getting news: " + String(e));
+    }
+    document.getElementById("news").innerHTML = "Error while getting news: " + String(e);
+}
