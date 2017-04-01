@@ -1,22 +1,25 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Error 404</title>
-    <link rel="stylesheet" href="https://nanomotion.github.io/assets/css/main.css">
+    <link href="https://nanomotion.github.io/favicon.ico" rel="shortcut icon" type="image/x-icon">
+    <link rel="stylesheet" href="https://nanomotion.github.io/assets/css/error.css">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>404 - Page Not Found</title>
   </head>
   <body>
-    <center>
-      <h1>404!</h1>
-      <h2>We can't find what you're looking for.</h2>
-      <br>
-      <p style="color: gray;">The requested page <text id="url">{url}</text> could not be found.</p>
+    <div class="error-msg">
+      <a href="https://dragon-drop-scratch.github.io/html-app"><img width="10%" title="Nanomotion" src="https://nanomotion.github.io/assets/img/logo.svg" alt="" /></a>
+      <h1 style="font-size: 45px; margin-bottom: 2px;">404!</h1>
+      <h3 style="font-size: 27.5px;">We can't find what you're looking for.</h3>
+      <p style="color: gray;" id="url">The requested page {url} was not found</p>
       <script>
-        document.getElementById("url").innerHTML = document.location.pathname;
+        document.getElementById("url").innerHTML = "The requested page " + document.location.pathname + " was not found";
         if (document.location.pathname.indexOf("/pages/help") != -1) {
           document.location = "https://nanomotion.github.io/assets/html/errors/410.html?href=" + String(document.location.pathname);
         }
       </script>
-    </center>
+      <hr>
+      <p style="color: gray;">The URL may be misspelled or the page you're looking for is no longer available.</p>
+    </div>
   </body>
 </html>
