@@ -46,6 +46,7 @@ h6 {
   margin-bottom: 30%;
 -webkit-margin-after: 30%;
   color: white !important;
+  text-align: center;
 }
 
 a {
@@ -161,15 +162,12 @@ button:hover {
 	background-color: #0081D5;
 }
 
-#shields {
-  display: inline-block;
-}
-
 .context {
 	color: #23272A !important;
   background-color: #f7f7f7;
   padding: 2.5%;
   transition: 0.3s;
+  text-align: center;
 }
 
 .inset-area {
