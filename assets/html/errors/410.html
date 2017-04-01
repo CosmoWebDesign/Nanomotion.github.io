@@ -27,7 +27,7 @@
           return decodeURIComponent(results[2].replace(/\+/g, " "));
       }
       x = getParameterByName("href");
-      document.getElementById("url").innerHTML = x;
+      document.getElementById("url").innerHTML = "The requested page " + x + " was removed";
       y = document.getElementById("specials");
       if (x.indexOf("/pages/help") != -1) {
         y.innerHTML = "<a href='https://nanomotion.github.io/assets/html/faq/help-removal.html'>More info</a>";
