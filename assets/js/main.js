@@ -74,16 +74,38 @@ if (!(x == "1")) {
   }
 }
 */
-/*window.onload = function () {
+window.onload = function () {
     try {
         var x = document.getElementById('unsupported-browser-notif');
-        x.innerHTML = "<span onclick='this.parentElement.style.display=\"none\";' style='float: right; cursor: pointer;'>&times;</span><strong>Hey there!</strong> This is a sample notification.";
+        x.innerHTML = "<span onclick='this.parentElement.style.display=\"none\";' style='float: right; cursor: pointer;'>&times;</span><strong>Hey there!</strong> You can join our Discord server at <a style=\"text-decoration: underline;\" href=\"https://discord.gg/eDRnXd6\">https://discord.gg/eDRnXd6</a>}";
         x.style.display = "block";
     }
     catch(e) {
         console.info("document.getElementById('unsupported-browser-notif'); failed: " + e);
     }
-}*/
+    try {
+        var news = new XMLHttpRequest()
+        news.open("GET", "https://nanomotion.github.io/api/news.txt", false);
+        news.onreadystatechange = function ()
+    {
+        if(news.readyState === 4)
+        {
+            if(news.status === 200 || news.status == 0)
+            {
+                var allText = news.responseText;
+                document.getElementById("news").innerHTML = allText;
+            }
+        }
+    }
+    news.send(null);
+    } 
+    catch(e) {
+        if (window.console) {
+          console.error("Error while getting news: " + String(e));
+    }
+    document.getElementById("news").innerHTML = "Error while getting news: " + String(e);
+}
+}
 
 var language = window.navigator.userLanguage || window.navigator.language;
 
@@ -120,30 +142,5 @@ try {
 } catch(e) {
     if (window.console) {
       console.error("Error while getting IP: " + String(e));
-    }
-}
-
-window.onload = function () {
-    try {
-        var news = new XMLHttpRequest()
-        news.open("GET", "https://nanomotion.github.io/api/news.txt", false);
-        news.onreadystatechange = function ()
-        {
-            if(news.readyState === 4)
-            {
-                if(news.status === 200 || news.status == 0)
-                {
-                    var allText = news.responseText;
-                    document.getElementById("news").innerHTML = allText;
-                }
-            }
-        }
-        news.send(null);
-        } 
-        catch(e) {
-        if (window.console) {
-          console.error("Error while getting news: " + String(e));
-        }
-        document.getElementById("news").innerHTML = "Error while getting news: " + String(e);
     }
 }
