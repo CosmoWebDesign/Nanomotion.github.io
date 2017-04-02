@@ -104,6 +104,7 @@ hr {
   padding: 10px 5%;
   background-color: white;
   color: #23272A !important;
+  padding-bottom: 40px !important;
 }
 
 /*.footer a, p, h1, h2, h3, h4, h5, h6, span {
@@ -176,13 +177,6 @@ button:hover {
 }
 
 @media (max-width: 550px) {
-	#pro-tip-full {
-    display: none !important;
-  }
-  
-  #help-link {
-    display: none !important;
-  }
   
 	#social-media {
     float: initial !important;
@@ -190,10 +184,6 @@ button:hover {
   
   #footer-logo {
     float: initial !important;
-  }
-  
-  #shields {
-    margin-top: 5%;
   }
   
   .main {
