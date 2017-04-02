@@ -1,9 +1,7 @@
-@import url("https://fonts.googleapis.com/css?family=Product+Sans");
-
 body {
   color: #23272A;
   margin: 0px;
-  font-family: 'Product Sans', 'Segoe UI', Helvetica, Arial;
+  font-family: 'Segoe UI', Helvetica, Arial;
   /*background: #ffffff url("https://nanomotion.github.io/assets/img/woodbg.jpg") no-repeat center center;*/
 }
 
@@ -140,7 +138,7 @@ hr {
 }
 
 button {
-	font-family: 'Product Sans', 'Segoe UI', Helvetica, Arial;
+	font-family: 'Segoe UI', Helvetica, Arial;
 	font-size: 16px;
   cursor: pointer;
   text-transform: uppercase;
