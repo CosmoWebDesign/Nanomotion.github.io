@@ -2,7 +2,7 @@ body {
   margin: 0px;
   font-family: 'Segoe UI', Helvetica, Arial;
   /*background: #2C2F33 url("https://nanomotion.github.io/assets/img/bg2.png") no-repeat center top; */
-  background-color: #7289DA
+  background-color: #7289DA;
   background-size: 100%;
   display: flex;
   min-height: 100vh;
