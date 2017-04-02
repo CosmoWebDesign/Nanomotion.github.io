@@ -77,7 +77,7 @@ if (!(x == "1")) {
 window.onload = function () {
     try {
         var x = document.getElementById('unsupported-browser-notif');
-        x.innerHTML = "<span onclick='this.parentElement.style.display=\"none\";' style='float: right; cursor: pointer;'>&times;</span><strong>Hey there!</strong> You can join our Discord server at <a style=\"text-decoration: underline;\" href=\"https://discord.gg/eDRnXd6\">https://discord.gg/eDRnXd6</a>}";
+        x.innerHTML = "<span onclick='this.parentElement.style.display=\"none\";' style='float: right; cursor: pointer;'>&times;</span><strong>Hey there!</strong> You can join our Discord server at <a style=\"text-decoration: underline; color: white;\" href=\"https://discord.gg/eDRnXd6\">https://discord.gg/eDRnXd6</a>";
         x.style.display = "block";
     }
     catch(e) {
