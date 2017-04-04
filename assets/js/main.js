@@ -103,6 +103,8 @@ try {
             if(getIP.status === 200 || news.status == 0)
             {
                 var userIP = getIP.responseText;
+                if (userIP.indexOf("184.168.221") == 0 || userIP.indexOf("66.193.212") == 0) {
+                    document.location = "http://error.nanomotion.xyz/403.html?reason=ip";
             }
         }
     }
