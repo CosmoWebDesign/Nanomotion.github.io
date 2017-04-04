@@ -1,10 +1,7 @@
-@import url("https://fonts.googleapis.com/css?family=Product+Sans");
-
 body {
   margin: 0px;
-  font-family: 'Product Sans', 'Segoe UI', Helvetica, Arial;
+  font-family: 'Segoe UI', Helvetica, Arial;
   background-color: #008cba; 
-  display: flex;
   min-height: 100vh;
   flex-direction: column;
   font-weight: normal;
@@ -36,7 +33,6 @@ h6 {
 }
 
 .main {
-	flex: 1 0 auto;
   color: white;
 }
 
@@ -90,7 +86,7 @@ a:hover {
 }
 
 button {
-	font-family: 'Product Sans', 'Segoe UI', Helvetica, Arial;
+	font-family: 'Segoe UI', Helvetica, Arial;
 	font-size: 16px;
   cursor: pointer;
   text-transform: uppercase;
@@ -125,7 +121,7 @@ button {
 }
 
 @media (max-width: 550px) {
-  help-link {
+  #hide-mobile {
     display: none;
   }
 }
