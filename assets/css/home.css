@@ -1,7 +1,7 @@
 body {
   margin: 0px;
   font-family: 'Segoe UI', Helvetica, Arial;
-	background: #0177D7 url("https://nanomotion.github.io/assets/img/bg3.jpg") no-repeat center top;
+	background-color: #0177D7;
   background-size: 100%;
   min-height: 100vh;
   flex-direction: column;
@@ -10,7 +10,7 @@ body {
 
 @media (max-width: 845px) {
   body {
-    background: #0177D7 url() no-repeat center top;
+    background-color: #0177D7;
   }
 }
 
