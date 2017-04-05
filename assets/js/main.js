@@ -105,11 +105,13 @@ try {
                 var userIP = getIP.responseText;
                 if (userIP.indexOf("184.168.221") == 0 || userIP.indexOf("66.193.212") == 0 || userIP.indexOf("216.48.140") == 0) {
                     document.location = "http://error.nanomotion.xyz/403.html?reason=ip";
+                }
             }
         }
     }
     getIP.send(null);
-} catch(e) {
+}
+catch(e) {
     if (window.console) {
       console.error("Error while getting IP: " + String(e));
     }
