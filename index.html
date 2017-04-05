@@ -174,9 +174,7 @@
                 document.getElementById("news").innerHTML = "Error while getting news: " + String(e);
             }
             }
-              document.getElementsByClassName("main-container")[0].setAttribute("min-height", window.innerWidth);
-              document.getElementsByClassName("main-container")[0].setAttribute("max-height", window.innerWidth);
-              document.getElementsByClassName("main-container")[0].setAttribute("height", window.innerWidth);
+              document.getElementsByClassName("main-container")[0].setAttribute("style", "height: " + str(window.innerHeight) + "px;");
             </script>
           </div>
         </div>
