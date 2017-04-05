@@ -8,7 +8,7 @@ body {
   font-weight: normal;
 }
 
-@media (max-width: 975px) {
+@media (max-width: 845px) {
   body {
     background: #0177D7 url() no-repeat center top;
   }
