@@ -248,3 +248,7 @@ button:hover {
   margin: 0px;
   padding: 5px;
 }
+
+.main-container {
+	overflow: hidden;
+}
