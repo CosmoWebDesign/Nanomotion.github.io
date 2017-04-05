@@ -19,17 +19,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
   </head>
   <body>
-    <div class="unsupported-browser-notif" id="unsupported-browser-notif"><span onclick="this.parentElement.style.display='none';" style="float: right; cursor: pointer;">&times;</span><strong>Hey there!</strong> It seems that you're using an unsupported browser. Please use a different browser such as <u><a href="https://www.google.com/chrome/">Google Chrome</a></u> or <u><a href="https://www.mozilla.com/firefox">Firefox</a></u>.</div>
-    <!-- Begin browser detection -->
-    <script async src="https://nanomotion.github.io/assets/js/browser-detection.js"></script>
-    <script async src="https://nanomotion.github.io/assets/js/main.js"></script>
-    <!-- End browser detection -->
-    <div class="navbar"><a href="https://nanomotion.github.io"><img src="https://nanomotion.github.io/assets/img/logo.svg">Nanomotion</a>&nbsp;<a id="proj-link" style="float: right; padding-top: 3.5px;" href="#projects">Projects</a></div>
-    <div class="main">  
-      <h1 class="title">Nanomotion</h1>
-      <p id="about" style="margin: auto 15%;">Leading the computer software industry in Visual Basic since 2015.</p><br><br>
-      <button style="width: 200px;" onClick="document.location = '#projects';">Projects</button>&nbsp;
-      <button style="width: 200px;" onClick="document.location = 'https://github.com/Nanomotion?tab=repositories';">GitHub</button><br>
+    <div class="main-container">
+      <div class="unsupported-browser-notif" id="unsupported-browser-notif"><span onclick="this.parentElement.style.display='none';" style="float: right; cursor: pointer;">&times;</span><strong>Hey there!</strong> It seems that you're using an unsupported browser. Please use a different browser such as <u><a href="https://www.google.com/chrome/">Google Chrome</a></u> or <u><a href="https://www.mozilla.com/firefox">Firefox</a></u>.</div>
+      <!-- Begin browser detection -->
+      <script async src="https://nanomotion.github.io/assets/js/browser-detection.js"></script>
+      <script async src="https://nanomotion.github.io/assets/js/main.js"></script>
+      <!-- End browser detection -->
+      <div class="navbar"><a href="https://nanomotion.github.io"><img src="https://nanomotion.github.io/assets/img/logo.svg">Nanomotion</a>&nbsp;<a id="proj-link" style="float: right; padding-top: 3.5px;" href="#projects">Projects</a></div>
+      <div class="main">  
+        <h1 class="title">Nanomotion</h1>
+        <p id="about" style="margin: auto 15%;">Leading the computer software industry in Visual Basic since 2015.</p><br><br>
+        <button style="width: 200px;" onClick="document.location = '#projects';">Projects</button>&nbsp;
+        <button style="width: 200px;" onClick="document.location = 'https://github.com/Nanomotion?tab=repositories';">GitHub</button><br>
+      </div>
     </div>
     <!-- Begin Projects -->
     <div class="context">
@@ -172,6 +174,9 @@
                 document.getElementById("news").innerHTML = "Error while getting news: " + String(e);
             }
             }
+              document.getElementByClass("main-container")[0].setAttribute("min-height", window.innerWidth);
+              document.getElementByClass("main-container")[0].setAttribute("max-height", window.innerWidth);
+              document.getElementByClass("main-container")[0].setAttribute("height", window.innerWidth);
             </script>
           </div>
         </div>
