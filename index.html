@@ -145,13 +145,13 @@
             <p style="padding: 10px 2.5%;" id="news"><img src="https://nanomotion.github.io/assets/img/spin.gif" height="19" width="19" alt="">Fetching news...</p>
             <script async>
               window.onload = function () {
-                try {
-                    var x = document.getElementById('unsupported-browser-notif');
-                    x.innerHTML = "<span onclick='this.parentElement.style.display=\"none\";' style='float: right; cursor: pointer;'>&times;</span><strong>Hey there!</strong> You can join our Discord server at <a style=\"text-decoration: underline; color: white;\" href=\"https://discord.gg/eDRnXd6\">https://discord.gg/eDRnXd6</a>";
-                    x.style.display = "block";
-                }
-                catch(e) {
-                    console.info("document.getElementById('unsupported-browser-notif'); failed: " + e);
+                //try {
+                //    var x = document.getElementById('unsupported-browser-notif');
+                //    x.innerHTML = "<span onclick='this.parentElement.style.display=\"none\";' style='float: right; cursor: pointer;'>&times;</span><strong>Hey there!</strong> You can join our Discord server at <a style=\"text-decoration: underline; color: white;\" href=\"https://discord.gg/eDRnXd6\">https://discord.gg/eDRnXd6</a>";
+                //    x.style.display = "block";
+                //}
+                //catch(e) {
+                //    console.info("document.getElementById('unsupported-browser-notif'); failed: " + e);
                 }
                 try {
                     var news = new XMLHttpRequest()
