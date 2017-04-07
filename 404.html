@@ -14,7 +14,7 @@
       <p style="color: gray;" id="url">The requested page {url} was not found</p>
       <script>
         document.getElementById("url").innerHTML = "The requested page " + document.location.pathname + " was not found";
-        if (document.location.pathname.indexOf("/pages/help") != -1) {
+        if (document.location.pathname.indexOf("/pages/help") = 0) {
           document.location = "https://nanomotion.github.io/assets/html/errors/410.html?href=" + String(document.location.pathname);
         }
       </script>
