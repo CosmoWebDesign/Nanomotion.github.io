@@ -1,1 +1,1 @@
-Get ready for <a href="https://github.com/Nanomotion/Nano-IDE">Nano IDE</a>'s new update: v1.3.0! Coming to a Git client near you. 
+NanoIDE version 1.3.0 is now out! Download it <a href="https://nanomotion.github.io/pages/nano-ide/#download">here</a>.
