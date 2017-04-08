@@ -63,6 +63,13 @@ if (!(document.location.hostname == "nanomotion.github.io")) {
   window.close();
 }
 
+try {
+    var a = document.getElementById('unsupported-browser-notif');
+    a.innerHTML = "<span onclick='this.parentElement.style.display=\"none\";' style='float: right; cursor: pointer;'>&times;</span>We changed our ";
+} catch(e) {
+    console.info("document.getElementById('unsupported-browser-notif'); failed: " + e);
+}
+
 /*
 var x = getParameterByName("a");
 
