@@ -65,7 +65,7 @@ if (!(document.location.hostname == "nanomotion.github.io")) {
 
 try {
     var a = document.getElementById('unsupported-browser-notif');
-    a.innerHTML = "<span onclick='this.parentElement.style.display=\"none\";' style='float: right; cursor: pointer;'>&times;</span>We changed our ";
+    a.innerHTML = "<span onclick='this.parentElement.style.display=\"none\";' style='float: right; cursor: pointer;'>&times;</span>We changed our terms of service! <a style=\"color: white;\" href=\"https://nanomotion.github.io/assets/html/faq/site-policies.html\">https://nanomotion.github.io/assets/html/faq/site-policies.html</a>";
 } catch(e) {
     console.info("document.getElementById('unsupported-browser-notif'); failed: " + e);
 }
