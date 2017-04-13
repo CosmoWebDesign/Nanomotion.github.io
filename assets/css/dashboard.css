@@ -52,7 +52,6 @@ a {
 
 .topnav {
   padding: 10px;
-  width: 100vw;
   color: white !important;
   background-color: rgb(51, 103, 214);
   margin: 0px;
@@ -62,4 +61,8 @@ a {
 .topnav p,a,img {
   vertical-align: middle;
   color:white !important;
+}
+
+#main {
+  transition: margin-left .5s;
 }
