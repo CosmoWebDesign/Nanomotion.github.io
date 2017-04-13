@@ -57,6 +57,10 @@ a {
 .topnav {
   margin: 5px;
   width: 100vw;
+  color: white !important;
+  background-color: rgb(51, 103, 214);
+  margin: 0px;
+  margin-bottom: 5px;
 }
 
 .topnav p,a,img {
