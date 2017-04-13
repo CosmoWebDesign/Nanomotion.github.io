@@ -1,6 +1,5 @@
 body {
   color: #23272A;
-  margin: 0px;
   font-family: 'Segoe UI', Helvetica, Arial;
   padding: 0px;
   margin: 0px;
@@ -44,11 +43,6 @@ a {
     right: 25px;
     font-size: 36px;
     margin-left: 50px;
-}
-
-#main {
-    transition: margin-left .5s;
-    padding: 16px;
 }
 
 @media screen and (max-height: 450px) {
