@@ -79,3 +79,44 @@ a {
   margin-bottom: 15px;
   position: absolute;
 }
+
+.error-inset {
+  color: white;
+  border: 1px solid #f22e2e;
+  margin: 5px;
+  border-radius: 5px;
+  padding: 7px 15px;
+  background: repeating-linear-gradient( -45deg, #f44242, #f44242 15px, #f22e2e 15px, #f22e2e 30px);
+  margin-bottom: 15px;
+  position: absolute;
+}
+
+.warning-inset {
+  border: 1px solid #f0c32d;
+  margin: 5px;
+  border-radius: 5px;
+  padding: 7px 15px;
+  background: repeating-linear-gradient( -45deg, #f1db2e, #f1db2e 15px, #f0c32d 15px, #f0c32d 30px);
+  margin-bottom: 15px;
+  position: absolute;
+}
+
+.ok-inset {
+  border: 1px solid #2cef5f;
+  margin: 5px;
+  border-radius: 5px;
+  padding: 7px 15px;
+  background: repeating-linear-gradient( -45deg, #2dd85a, #2dd85a 15px, #2cef5f 15px, #2cef5f 30px);
+  margin-bottom: 15px;
+  position: absolute;
+}
+
+.info-inset {
+  border: 1px solid #2d93d8;
+  margin: 5px;
+  border-radius: 5px;
+  padding: 7px 15px;
+  background: repeating-linear-gradient( -45deg, #2db2d8, #2db2d8 15px, #2d93d8 15px, #2d93d8 30px);
+  margin-bottom: 15px;
+  position: absolute;
+}
