@@ -13,9 +13,9 @@ function getParameterByName(name, url) {
 var fwlink = getParameterByName("a");
 
 if (fwlink == "1") {
-  document.location = "http://help.nanomotion.xyz/topics/software/nano-os";
+  document.location = "http://error.nanomotion.xyz/410.html";
 } else if (fwlink == "2") {
-  document.location = "https://github.com/Nanomotion/Nano-OS/issues";
+  document.location = "http://error.nanomotion.xyz/410.html";
 } else {
   document.location = "https://nanomotion.github.io/assets/urls/invalid-url.html";
 }
