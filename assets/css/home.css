@@ -268,7 +268,7 @@ button:hover {
   text-align: center;
 	transition: 0.3s;
 	animation-name: float;
-	animation-duration: 5s;
+	animation-duration: 1.5s;
 	animation-iteration-count: infinite;
 }
 
