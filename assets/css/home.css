@@ -1,4 +1,4 @@
-body {
+arrow-downbody {
 	color: #23272A;
   margin: 0px;
   font-family: 'Segoe UI', Helvetica, Arial;
@@ -274,9 +274,11 @@ button:hover {
 
 .firework {
 	height: 86px;
-	height: 86px;
+	width: 86px;
+	background-size: 1548px, 86px;
 	background: white url("https://nanomotion.github.io/assets/img/firework-bg.png") no-repeat center center;
 	animation-name: firework;
+	animation-duration: 1.2s;
 	animation-iteration-count: infinite;
 }
 
@@ -313,3 +315,4 @@ button:hover {
 	89% {background-position: -1376px;}
 	94% {background-position: -1462px;}
 	100% {background-position: -1548px;}
+}
