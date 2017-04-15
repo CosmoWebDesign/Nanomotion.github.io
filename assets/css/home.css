@@ -258,6 +258,7 @@ button:hover {
 }
 
 .arrow-down {
+	cursor: pointer;
   width: 26px;
   height: 26px;
   background: white url("https://nanomotion.github.io/assets/img/arrow-down-2.svg") no-repeat center center;
@@ -265,4 +266,21 @@ button:hover {
   position: relative;
   top: -58px;
   text-align: center;
+	transition: 0.3s;
+	animation-name: float;
+	animation-duration: 5s;
+	animation-iteration-count: infinite;
+}
+
+@keyframes float {
+	0% {top:-58px;}
+	10% {top: -59px;}
+	20% {top: -61px;}
+	30% {top: -64px;}
+	40% {top: -65px;}
+	55% {top: -66px;}
+	70% {top: -64px;}
+	90% {top: -61px;}
+	90% {top: -59px;}
+	100% {top: -58px;}
 }
