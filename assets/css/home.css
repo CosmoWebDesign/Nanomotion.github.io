@@ -277,9 +277,7 @@ button:hover {
 	width: 86px;
 	background-size: 1548px, 86px;
 	background: white url("https://nanomotion.github.io/assets/img/firework-bg.png") no-repeat center center;
-	animation-name: firework;
-	animation-duration: 1.2s;
-	animation-iteration-count: infinite;
+	animation: firework 1s steps(86,start) forwards infinite;
 }
 
 @keyframes float {
@@ -297,22 +295,5 @@ button:hover {
 
 @keyframes firework {
 	0% {background-position: 0px;}
-	6% {background-position: -86px;}
-	11% {background-position: -172px;}
-	17% {background-position: -258px;}
-	22% {background-position: -344px;}
-	28% {background-position: -430px;}
-	33% {background-position: -516px;}
-	39% {background-position: -602px;}
-	44% {background-position: -688px;}
-	50% {background-position: -774px;}
-	56% {background-position: -860px;}
-	61% {background-position: -946px;}
-	67% {background-position: -1032px;}
-	72% {background-position: -1118px;}
-	78% {background-position: -1204px;}
-	83% {background-position: -1290px;}
-	89% {background-position: -1376px;}
-	94% {background-position: -1462px;}
 	100% {background-position: -1548px;}
 }
