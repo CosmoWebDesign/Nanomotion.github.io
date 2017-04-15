@@ -258,8 +258,8 @@ button:hover {
 }
 
 .arrow-down {
-  width: 14px;
-  height: 24px;
+  width: 26px;
+  height: 26px;
   background: white url("https://nanomotion.github.io/assets/img/arrow-down-2.svg") no-repeat center center;
   vertical-align: bottom;
   position: relative;
