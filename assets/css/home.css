@@ -257,6 +257,12 @@ button:hover {
 	overflow: hidden;
 }
 
+.float {
+	animation-name: float;
+	animation-duration: 1.5s;
+	animation-iteration-count: infinite;
+}
+
 .arrow-down {
 	cursor: pointer;
   width: 26px;
@@ -267,7 +273,7 @@ button:hover {
   top: -58px;
   text-align: center;
 	transition: 0.3s;
-	animation-name: float;
+	animation-name: float-arrow;
 	animation-duration: 1.5s;
 	animation-iteration-count: infinite;
 }
@@ -281,12 +287,27 @@ button:hover {
 }
 
 @keyframes float {
-	0% {top:-58px;}
+	0% {top: 0px;}
+	10% {top: -1px;}
+	20% {top: -3px;}
+	30% {top: -5px;}
+	40% {top: -7px;}
+	55% {top: -8px;}
+	60% {top: -7px;}
+	70% {top: -5px;}
+	90% {top: -3px;}
+	90% {top: -1px;}
+	100% {top: -0px;}
+}
+
+@keyframes float-arrow {
+	0% {top: -58px;}
 	10% {top: -59px;}
 	20% {top: -61px;}
 	30% {top: -64px;}
 	40% {top: -65px;}
 	55% {top: -66px;}
+	60% {top: -65px;}
 	70% {top: -64px;}
 	90% {top: -61px;}
 	90% {top: -59px;}
