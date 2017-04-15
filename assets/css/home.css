@@ -262,9 +262,10 @@ button:hover {
 .arrow-down {
   width: 14px;
   height: 24px;
-  background: #0177D7 url("https://nanomotion.github.io/assets/img/arrow-down.svg") no-repeat center center;
+  background: white url("https://nanomotion.github.io/assets/img/arrow-down.svg") no-repeat center center;
   vertical-align: bottom;
   position: relative;
   top: -58px;
   text-align: center;
+  filter: brightness(50%) saturate(200%) hue-rotate(90deg);
 }
