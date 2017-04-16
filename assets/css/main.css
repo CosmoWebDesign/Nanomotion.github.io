@@ -12,23 +12,24 @@ a {
 }
 
 .navbar {
-  padding: 7.5px;
+  /*text-transform: uppercase;*/
+  padding: 10px 5%;
   color: white !important;
-  background-color: #333;
   font-size: 22px;
-  margin-bottom: 15px;
-  box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.75);
+  margin-bottom: 7.5%;
+	background-color: rgb(51, 103, 214);
 }
 
 .navbar a {
-  color: white;
+  color: white !important;
   text-decoration: none;
   transition: 0.3s;
   margin: 0px 20px;
 }
 
 .navbar a:hover {
-  cursor: pointer;
+  text-decoration: none;
+  transition: 0.3s;
 }
 
 .navbar img {
@@ -154,25 +155,6 @@ button {
 button:hover {
   color: white;
 	background-color: #0081D5;
-}
-
-input[type=text] {
-    width: 300px;
-    box-sizing: border-box;
-    border: 2px solid #ccc;
-    border-radius: 4px;
-    font-size: 16px;
-    background-color: white;
-    background-image: url('https://www.w3schools.com/howto/searchicon.png');
-    background-position: 10px 10px; 
-    background-repeat: no-repeat;
-    padding: 12px 20px 12px 40px;
-    -webkit-transition: width 0.4s ease-in-out;
-    transition: width 0.4s ease-in-out;
-}
-
-input[type=text]:focus {
-    width: 75%;
 }
 
 .text-inset {
