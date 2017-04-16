@@ -37,7 +37,7 @@ window.onload = setTimeout(function() {
         }
         if (fw.indexOf("//") == 0) {
             document.location = fw;
-        } else if (fw == "InvalidUrlError") {
+        } else if (fw == "InvalidUrlError" || fw.indexOf("//") == -1) {
             document.title = "Invalid URL";
             document.getElementById("body").innerHTML = "<h1>Invalid URL</h1><p>The requested URL is corrupted. <a href='http://url.nanomotion.xyz'>Click here</a> to encode a new URL.";
         }
