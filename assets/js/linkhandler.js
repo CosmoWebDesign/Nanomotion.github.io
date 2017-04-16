@@ -29,7 +29,7 @@ window.onload = setTimeout(function() {
             document.location = fw;
         } else {
             document.title = "Invalid URL";
-            document.getElementById("body").innerHTML = "<h1>Invalid URL</h1><p>The requested URL is corrupted. <a href='//url.nanomotion.xyz'>Click here</a> to encode a new URL.";
+            document.getElementById("body").innerHTML = "<h1>Invalid URL</h1><p>The requested URL is corrupted. <a href='http://url.nanomotion.xyz'>Click here</a> to encode a new URL.";
         }
     }
 }, 500);
