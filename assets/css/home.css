@@ -257,11 +257,13 @@ button:hover {
 	overflow: hidden;
 }
 
-.float {
-	position: relative;
-	animation-name: float;
-	animation-duration: 1.5s;
-	animation-iteration-count: infinite;
+@media (min-width: 550px) {
+	.float {
+		position: relative;
+		animation-name: float;
+		animation-duration: 1.5s;
+		animation-iteration-count: infinite;
+	}
 }
 
 .arrow-down {
