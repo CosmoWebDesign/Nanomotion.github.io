@@ -36,7 +36,7 @@
           } else if (document.getElementById("url").value == "") {
             swal("Error", "Please enter a URL to encode!", "error");
           } else {
-            var enc = "http://url.nanomotion.xyz/?a=" + String(atob(document.getElementById("url").value));
+            var enc = "http://url.nanomotion.xyz/?a=" + String(btoa(document.getElementById("url").value));
             swal({
               title: "URL",
               text: "Here is your newly encoded URL:",
