@@ -20,6 +20,11 @@ function convertFromHex(hex) {
 
 var fwlink = getParameterByName("a");
 
+if (fwlink != "") {
+    document.title = "Redirecting...";
+    document.getElementById("body").innerHTML = "<h1>Please wait...</h1><p>You are being redirected.</p>";
+}
+
 window.onload = setTimeout(function() {
     if (fwlink == "") {
         document.title = "Nanomotion URL Shortener";
