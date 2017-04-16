@@ -12,10 +12,11 @@ function getParameterByName(name, url) {
 
 var fwlink = getParameterByName("a");
 
-if (fwlink == "1") {
-  document.location = "http://error.nanomotion.xyz/410.html";
-} else if (fwlink == "2") {
-  document.location = "http://error.nanomotion.xyz/410.html";
-} else {
-  document.location = "https://nanomotion.github.io/assets/urls/invalid-url.html";
-}
+window.onload = setTimeout(function() {
+    if (fwlink == "0") {
+        document.getElementById("body").innerHTML = "<h1>Test URL</h1><p>This is a test URL.</p>";
+    } else {
+        document.title = "Invalid URL"
+        document.getElementById("body").innerHTML = "<h1>Invalid url</h1><p>The shortened URL ID is not valid. It may have been removed.</p><center><p style=\"color: gray;\">Copyright &copy; Nanomotion 2017</p></center>";
+    }
+}, 500);
