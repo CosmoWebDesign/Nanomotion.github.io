@@ -29,7 +29,11 @@ window.onload = setTimeout(function() {
     if (fwlink == "" || fwlink == null) {
         document.title = "Nanomotion URL Shortener";
     } else {
-        var fw = atob(String(fwlink));
+        try {
+            var fw = atob(String(fwlink));
+        } catch (e) {
+            var fw = "InvalidUrlError";
+        }
         if (fw.indexOf("//") == 0) {
             document.location = fw;
         } else {
