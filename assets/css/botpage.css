@@ -6,6 +6,7 @@ body {
   flex-direction: column;
   font-weight: normal;
   color: white;
+	overflow: hidden;
 }
 
 h1 {
