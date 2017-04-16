@@ -20,13 +20,13 @@ function convertFromHex(hex) {
 
 var fwlink = getParameterByName("a");
 
-if (fwlink != "") {
+if (fwlink != "" || fwlink != null) {
     document.title = "Redirecting...";
     document.getElementById("body").innerHTML = "<h1>Please wait...</h1><p>You are being redirected.</p>";
 }
 
 window.onload = setTimeout(function() {
-    if (fwlink == "") {
+    if (fwlink == "" || fwlink == null) {
         document.title = "Nanomotion URL Shortener";
     } else {
         var fw = atob(String(fwlink));
