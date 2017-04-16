@@ -20,9 +20,9 @@ function convertFromHex(hex) {
 
 var fwlink = getParameterByName("a");
 
-if (fwlink != "" || fwlink != null) {
+if (!(fwlink == "" || fwlink == null)) {
     document.title = "Redirecting...";
-    document.getElementById("body").innerHTML = "<h1>Please wait...</h1><p>You are being redirected.</p>";
+    document.getElementsByTagName("BODY")[0].innerHTML = "<h1>Please wait...</h1><p>You are being redirected.</p>";
 }
 
 window.onload = setTimeout(function() {
@@ -33,10 +33,11 @@ window.onload = setTimeout(function() {
             var fw = atob(String(fwlink));
         } catch (e) {
             var fw = "InvalidUrlError";
+            console.error("Failed to encode URL: " + String(e))
         }
         if (fw.indexOf("//") == 0) {
             document.location = fw;
-        } else {
+        } else if (fw == "InvalidUrlError") {
             document.title = "Invalid URL";
             document.getElementById("body").innerHTML = "<h1>Invalid URL</h1><p>The requested URL is corrupted. <a href='http://url.nanomotion.xyz'>Click here</a> to encode a new URL.";
         }
