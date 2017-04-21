@@ -1,3 +1,14 @@
 gems:
   - jekyll-redirect-from
   - jekyll-seo-tag
+title: Nanomotion Software
+description: Quality software for the modern person.
+twitter:
+  username: nanomotiondev
+image:
+  path: https://nanomotion.github.io/assets/img/logo.svg
+  height: 100
+  width: 100
+webmaster_verifications:
+  google: googled2da515ed7d34e8e.html
+lang: en
