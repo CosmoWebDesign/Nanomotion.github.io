@@ -79,19 +79,13 @@ a {
 }
 
 .title {
-  letter-spacing: 3px;
-  text-transform: uppercase;
+  letter-spacing: 1px;
+	font-weight: 100;
   margin-bottom: 20px;
 }
 
-hr {
-  margin: 30px 2.5%;
-  border: 1px solid #23272A;
-}
-
 .caption {
-  color: gray;
-  font-size: 12px;
+  color: #808080;
 }
 
 .footer {
@@ -131,14 +125,12 @@ hr {
   border-color: #4286f4;
 }
 
-.stripe-inset {
+.stripe {
   border: 1px solid #ddd;
   margin: 5px;
-  border-radius: 5px;
   padding: 7px 15px;
   background: repeating-linear-gradient( -45deg, #F5F5F4, #f5f5f5 15px, #f1f1f1 15px, #f1f1f1 30px);
   margin-bottom: 15px;
-  position: absolute;
 }
 
 button {
@@ -162,7 +154,7 @@ button:hover {
 
 .context {
 	color: #23272A !important;
-  background-color: white;
+  background-color: #fafafa;
   padding: 2.5%;
   transition: 0.3s;
   text-align: center;
