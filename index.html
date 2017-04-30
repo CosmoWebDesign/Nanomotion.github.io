@@ -135,53 +135,12 @@
         <button onClick="document.location = 'https://github.com/Nanomotion?tab=repositories';">All Projects</button>
       </center>
     </div>
-    <div class="context">
-      <center>
-        <div id="news-container" class="container" style="margin: 10px 10%;">
-          <div class="container-header">
-            <h1 class="title">News</h1>
-          </div>
-          <div class="container-content" id="news-container-content">
-            <p style="padding: 10px 2.5%;" id="news"><img src="https://nanomotion.github.io/assets/img/spin.gif" height="19" width="19" alt="">Fetching news...</p>
-            <script async>
-              window.onload = function () {
-                try {
-                    var news = new XMLHttpRequest()
-                    news.open("GET", "https://nanomotion.github.io/api/news.txt", false);
-                    news.onreadystatechange = function ()
-                {
-                    if(news.readyState === 4)
-                    {
-                      console.info("news.txt returned " + String(news.status))
-                        if(news.status === 200 || news.status == 0)
-                        {
-                            var allText = news.responseText;
-                            document.getElementById("news").innerHTML = allText;
-                        }
-                    }
-                }
-                news.send(null);
-                } 
-                catch(e) {
-                    if (window.console) {
-                      console.error("Error while getting news: " + String(e));
-                }
-                document.getElementById("news").innerHTML = "Error while getting news: " + String(e);
-            }
-            }
-              document.getElementsByClassName("main-container")[0].setAttribute("style", "height: " + String(window.innerHeight) + "px;");
-            </script>
-          </div>
-        </div>
-      </center>
-    </div>
     <div class="footer">
       <center>
-        <img id="footer-logo" style="margin-bottom: 10px; float: left;" src="https://nanomotion.github.io/assets/img/logofull.svg" width="200" height="50"><br>
+        <p style="color: #666666; font-size: 0.75em; float: left; vertical-align: middle; position: relative; top: 10px;">Copyright © 2017 Nanomotion -- See the <a href="https://nanomotion.github.io/assets/html/faq/site-policies.html">copyright page</a> for more info.</p>
         <div id="social-media" style="float: right;">
           <a href="https://twitter.com/NanomotionDev"><img src="https://nanomotion.github.io/assets/img/twitter.svg" width="25" height="25"></a>&nbsp;
           <a href="https://github.com/Nanomotion"><img src="https://nanomotion.github.io/assets/img/github.svg" width="25" height="25"></a>&nbsp;
-          <a href="https://nanomotion.github.io/pages/help/topics/legal/copyright-policy"><img src="https://nanomotion.github.io/assets/img/copyright.svg" width="25" height="25"></a>
         </div>
       </center>
     </div>
