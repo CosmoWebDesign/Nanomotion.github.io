@@ -123,14 +123,13 @@ button {
 	border: 1px solid #0081D5;
 	border-radius: 5px;
 	margin: 5px;
-	background-color: white !important;
+	background-color: white;
   transition: 0.3s;
 }
 
 button:hover {
   color: white;
 	background-color: #0081D5;
-	margin-bottom: 8px;
 }
 
 .context {
