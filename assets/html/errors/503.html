@@ -26,10 +26,11 @@
           return decodeURIComponent(results[2].replace(/\+/g, " "));
         }
         x = getParameterByName("reason");
+        y = document.getElementById("msg");
         if (x == "maintenance") {
-          x.innerHTML = "This page is currently under maintenance.";
+          y.innerHTML = "This page is currently under maintenance.";
         } else if (x == "overflow") {
-          x.innerHTML = "We're experiencing lots of traffic right now. Please try again later.";
+          y.innerHTML = "We're experiencing lots of traffic right now. Please try again later.";
         }
       </script>
     </div>
