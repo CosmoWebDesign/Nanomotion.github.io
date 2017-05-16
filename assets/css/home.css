@@ -1,7 +1,7 @@
 body {
 	color: #23272A;
   margin: 0px;
-  font-family: 'Segoe UI', Helvetica, Arial;
+  font-family: 'Segoe UI', 'Noto Sans UI', Helvetica, Arial, Verdana;
 	background-color: white;
   background-size: 100%;
   min-height: 100vh;
@@ -26,12 +26,11 @@ a {
 }
 
 .navbar {
-  /*text-transform: uppercase;*/
   padding: 10px;
   color: white !important;
-  font-size: 22px;
+  font-size: 20px;
   margin-bottom: 7.5%;
-	background-color: rgb(51, 103, 214);
+	background-color: rgb(35, 39, 42);
 }
 
 .navbar a {
@@ -39,6 +38,16 @@ a {
   text-decoration: none;
   transition: 0.3s;
   margin: 0px 20px;
+}
+
+.navbar #discord {
+	cursor: pointer;
+	float: right;
+    padding: 1.75px 5px 1.75px 30px;
+    margin-top: 3.5px;
+    background: #7289DA url('https://discordapp.com/assets/1c8a54f25d101bdc607cec7228247a9a.svg') no-repeat center left;
+    border: 1px hidden;
+    border-radius: 5px;
 }
 
 .navbar a:hover {
@@ -118,7 +127,7 @@ button {
 	font-size: 16px;
   cursor: pointer;
   text-transform: uppercase;
-	padding: 15px 35px;
+	padding: 10px 20px;
 	color: #0081D5;
 	border: 1px solid #0081D5;
 	border-radius: 5px;
@@ -154,7 +163,10 @@ button:hover {
 }
 
 @media (max-width: 550px) {
-  
+  *[hidemob] {
+	  display: none;
+	}
+	
 	#social-media {
     float: initial !important;
   }
