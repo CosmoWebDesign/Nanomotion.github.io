@@ -48,6 +48,8 @@ a {
     background: #7289DA url('https://discordapp.com/assets/1c8a54f25d101bdc607cec7228247a9a.svg') no-repeat center left;
     border: 1px hidden;
     border-radius: 5px;
+	min-width: 50px;
+	text-align: right;
 }
 
 .navbar a:hover {
