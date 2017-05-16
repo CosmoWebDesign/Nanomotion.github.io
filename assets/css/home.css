@@ -117,11 +117,10 @@ a {
 }
 
 .stripe {
-  border: 1px solid #ddd;
-  margin: 5px;
-  padding: 7px 0px;
+  border-top: 1px solid #ddd;
+	border-bottom: 1px solid #ddd;
+  padding: 15px;
   background: repeating-linear-gradient( -45deg, #F5F5F4, #f5f5f5 15px, #f1f1f1 15px, #f1f1f1 30px);
-  margin-bottom: 15px;
 }
 
 button {
