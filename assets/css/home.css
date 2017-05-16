@@ -164,6 +164,11 @@ button:hover {
   -webkit-box-align: stretch;
 }
 
+@media (max-width: 350px) {
+	*[hidesmallmob] {
+		display: none;
+	}
+
 @media (max-width: 550px) {
   *[hidemob] {
 	  display: none;
