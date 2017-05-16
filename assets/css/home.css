@@ -167,6 +167,7 @@ button:hover {
 	*[hidesmallmob] {
 		display: none;
 	}
+}
 
 @media (max-width: 550px) {
   *[hidemob] {
