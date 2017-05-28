@@ -40,9 +40,7 @@ a:hover {
 }
 
 .navbar a {
-  color: white !important;
-  text-decoration: none;
-  transition: 0.3s;
+  text-decoration: none !important;
   margin: 0px 20px;
 }
 
@@ -64,8 +62,8 @@ a:hover {
 }
 
 .products {
-    position: relative;
-    bottom: 10.5px;
+    position: relative !important;
+    bottom: 6px !important;
     border-radius: 5px;
     padding: 5px 20px !important;
     margin: 5px;
