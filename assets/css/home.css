@@ -69,7 +69,7 @@ a {
     padding: 5px 20px !important;
     margin: 5px;
     border: 1px solid #D1335B;
-    color: white;
+    color: white !important;
     background-color: #D1335B;
 }
 
