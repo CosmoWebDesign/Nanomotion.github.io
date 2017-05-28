@@ -37,12 +37,7 @@ a {
 	color: #374355;
   text-decoration: none !important;
   margin: 0px 10px;
-}
-
-.navbar a:hover {
-	color: #374355 !important;
-  text-decoration: none !important;
-  margin: 0px 10px;
+	float: left;
 }
 
 .navbar #discord {
@@ -77,17 +72,9 @@ a {
     color: white !important;
 }
 
-.navbar a:hover {
-  text-decoration: none;
-  transition: 0.3s;
-}
-
 .navbar img {
   width: 25px;
   height: 25px;
-  position: relative;
-  left:-5px;
-  top: 3.5px;
 }
 
 .content {
