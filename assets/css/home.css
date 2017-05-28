@@ -21,27 +21,21 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 a {
-  color: #374355;
-  text-decoration: underline;
-  transition: 0.3s;
-}
-
-a:hover {
   color: #4286f4;
   text-decoration: none;
 }
 
 .navbar {
-    border-bottom: 1px solid #3d4d65;
     padding: 15px;
     margin-bottom: 5px;
-    background: #eceff4 url("https://nanomotion.github.io/assets/img/logo.svg") no-repeat center left;
+	background-color: #eceff4;
+    /*background: #eceff4 url("https://nanomotion.github.io/assets/img/logo.svg") no-repeat center left;*/
     padding-left: 55px;
 }
 
 .navbar a {
   text-decoration: none !important;
-  margin: 0px 20px;
+  margin: 0px 10px;
 }
 
 .navbar #discord {
@@ -58,7 +52,7 @@ a:hover {
 
 .navbar .right {
 	float: right;
-	padding: 0px 20px;
+	padding: 0px 10px;
 }
 
 .products {
@@ -148,20 +142,22 @@ a:hover {
 }
 
 button,.button {
-    border-radius: 5px;
-    padding: 10px 20px;
-    margin: 5px;
-    text-transform: uppercase;
-    border: 1px solid #0081D5;
-    background-color: white;
-    color: #0081D5;
-    transition: 0.3s;
+	font-family: 'Segoe UI', Helvetica, Arial;
+	font-size: 16px;
+  cursor: pointer;
+  text-transform: uppercase;
+	padding: 10px 20px;
+	color: #0081D5;
+	border: 1px solid #0081D5;
+	border-radius: 5px;
+	margin: 5px;
+	background-color: white;
+  transition: 0.3s;
 }
 
 button:hover,.button:hover {
-    border: 1px solid #0081D5;
-    background-color: #0081D5;
-    color: white;
+  color: white;
+	background-color: #0081D5;
 }
 
 .context {
