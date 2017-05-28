@@ -1,12 +1,13 @@
 body {
-	color: #23272A;
-  margin: 0px;
-  font-family: 'Segoe UI', 'Noto Sans UI', Helvetica, Arial, Verdana;
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Roboto', 'Segoe UI', Arial, Helvetica, sans-serif;
+    color: #374355;
 	background-color: white;
-  background-size: 100%;
-  min-height: 100vh;
-  flex-direction: column;
-  font-weight: normal;
+	background-size: 100%;
+	min-height: 100vh;
+	flex-direction: column;
+	font-weight: normal;
 }
 
 h1,h2,h3,h4,h5,h6 {
@@ -20,17 +21,22 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 a {
-  color: #4286f4;
-  text-decoration: none;
+  color: #374355;
+  text-decoration: underline;
   transition: 0.3s;
 }
 
+a:hover {
+  color: #4286f4;
+  text-decoration: none;
+}
+
 .navbar {
-  padding: 10px;
-  color: white !important;
-  font-size: 20px;
-  margin-bottom: 7.5%;
-	background-color: rgb(35, 39, 42);
+    border-bottom: 1px solid #3d4d65;
+    padding: 15px;
+    margin-bottom: 5px;
+    background: #eceff4 url("https://nanomotion.github.io/assets/img/logo.svg") no-repeat center left;
+    padding-left: 55px;
 }
 
 .navbar a {
@@ -50,6 +56,26 @@ a {
     border-radius: 5px;
 	min-width: 50px;
 	text-align: right;
+}
+
+.navbar .right {
+	float: right;
+	padding: 0px 20px;
+}
+
+.products {
+    position: relative;
+    bottom: 10.5px;
+    border-radius: 5px;
+    padding: 5px 20px !important;
+    margin: 5px;
+    border: 1px solid #D1335B;
+    color: white;
+    background-color: #D1335B;
+}
+
+.products:hover {
+    color: white !important;
 }
 
 .navbar a:hover {
@@ -123,23 +149,21 @@ a {
   background: repeating-linear-gradient( -45deg, #F5F5F4, #f5f5f5 15px, #f1f1f1 15px, #f1f1f1 30px);
 }
 
-button {
-	font-family: 'Segoe UI', Helvetica, Arial;
-	font-size: 16px;
-  cursor: pointer;
-  text-transform: uppercase;
-	padding: 10px 20px;
-	color: #0081D5;
-	border: 1px solid #0081D5;
-	border-radius: 5px;
-	margin: 5px;
-	background-color: white;
-  transition: 0.3s;
+button,.button {
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin: 5px;
+    text-transform: uppercase;
+    border: 1px solid #0081D5;
+    background-color: white;
+    color: #0081D5;
+    transition: 0.3s;
 }
 
-button:hover {
-  color: white;
-	background-color: #0081D5;
+button:hover,.button:hover {
+    border: 1px solid #0081D5;
+    background-color: #0081D5;
+    color: white;
 }
 
 .context {
