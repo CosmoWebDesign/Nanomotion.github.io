@@ -297,6 +297,13 @@ button:hover,.button:hover {
 	animation: firework 1s steps(86,start) forwards infinite;
 }
 
+.post {
+	margin: 20px 5px;
+	padding: 5px;
+	border: 1px solid #374355;
+	border-radius: 5px;
+}
+
 @keyframes float {
 	0% {top: 0px;}
 	10% {top: -1px;}
