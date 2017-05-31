@@ -298,10 +298,14 @@ button:hover,.button:hover {
 }
 
 .post {
-	margin: 20px 5px;
-	padding: 5px;
+	margin: 5% 5px;
+	padding: 2% 5px;
 	border: 1px solid #374355;
 	border-radius: 5px;
+}
+
+.post-date {
+	color: gray !important;
 }
 
 @keyframes float {
