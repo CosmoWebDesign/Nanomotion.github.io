@@ -295,12 +295,10 @@ button:hover,.button:hover {
 
 .description {
 	color: #23272A !important;
-	font-size: 10px;
+	font-size: 18px;
 	float: right;
 	text-align: right;
-	position: relative;
-	top: 30px;
-	max-width: 50%;
+	max-width: 75%;
 }
 
 .arrow-down {
