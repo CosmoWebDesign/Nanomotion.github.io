@@ -274,6 +274,25 @@ button:hover,.button:hover {
 	}
 }
 
+.help-topic {
+	color: #23272A !important;
+  border-bottom: 1px solid rgba(153, 170, 181, 0.3);
+  font-size: 24px;
+  padding: 30px 0px;
+	transition: 0.3s;
+}
+
+.help-topic-area {
+	text-align: left;
+  list-style: none;
+	padding: 0px;
+}
+
+.help-topic:hover {
+	padding-left: 15px;
+	background-color: rgba(153, 170, 181, 0.1);
+}
+
 .arrow-down {
 	cursor: pointer;
   width: 26px;
