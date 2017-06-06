@@ -293,6 +293,16 @@ button:hover,.button:hover {
 	background-color: rgba(153, 170, 181, 0.1);
 }
 
+.description {
+	color: #23272A !important;
+	font-size: 10px;
+	float: right;
+	text-align: right;
+	position: relative;
+	top: 30px;
+	max-width: 50%;
+}
+
 .arrow-down {
 	cursor: pointer;
   width: 26px;
