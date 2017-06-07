@@ -1,7 +1,7 @@
 body {
     padding: 0px;
     margin: 0px;
-    font-family: 'Segoe UI', 'Noto Sans UI', Arial, Helvetica, sans-serif;
+    font-family: 'Segoe UI', 'Noto Sans UI', Arial, Helvetica, Roboto, sans-serif;
     color: #374355;
 	background-color: white;
 	background-size: 100%;
@@ -29,12 +29,13 @@ a {
     padding: 15px;
     margin-bottom: 5px;
 	padding-bottom: 7px !important;
-	background-color: #eceff4;
+	background-color: rgb(35, 39, 42);
+	color: white;
     /*background: #eceff4 url("https://nanomotion.github.io/assets/img/logo.svg") no-repeat center left;*/
 }
 
 .navbar a {
-	color: #374355;
+	color: white;
   text-decoration: none !important;
   margin: 0px 10px;
 	float: left;
