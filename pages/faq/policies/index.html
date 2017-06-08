@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Site Policies - Nanomotion</title>
+    <link rel="stylesheet" href="https://nanomotion.github.io/assets/css/home.css">
+    <link href="https://nanomotion.github.io/favicon.ico" rel="shortcut icon" type="image/x-icon">
+    <script src="https://nanomotion.github.io/assets/js/main.js"></script>
+    <!-- Google Analytics -->
+    <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+    ga('create', 'UA-89117598-1', 'auto');
+    ga('send', 'pageview');
+    </script>
+    <!-- End Google Analytics -->
+    <meta name="keywords" content="nanomotion, github, nanomotion.github.io, games">
+    <meta name="description" content="Nanomotion.github.io | Games, GitHub Projects, and more">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  </head>
+  <body>
+    <div class="navbar">
+      <img src="https://nanomotion.github.io/assets/img/logo.svg">
+      <a hidemob href="https://nanomotion.github.io">Nanomotion</a>
+      <a href="/pages/projects" class="products right">Products</a>
+      <a hidemob href="https://discord.gg/eDRnXd6" class="right">Discord</a>
+      <a hidemob href="/pages/art" class="right">Art</a>
+      <a hidemob href="/pages/blog" class="right">Blog</a>
+    </div>
+    <div class="content" style="text-align: center;">
+      <div id="policies"><img src="https://nanomotion.github.io/assets/img/spin.gif" height="19" width="19" alt="">Fetching policies... Click <a href="https://docs.google.com/document/d/1IkmJIMjGfCGxZC_255vPcdyUq1q5kjWwyH4-GTW7vBo/pub?embedded=true">here</a> to view the document if this doesn't load in a few seconds.</div>
+      <script async>
+        window.onload = function () {
+          try {
+              var news = new XMLHttpRequest()
+              news.open("GET", "https://docs.google.com/document/d/1IkmJIMjGfCGxZC_255vPcdyUq1q5kjWwyH4-GTW7vBo/pub?embedded=true", false);
+              news.onreadystatechange = function ()
+          {
+              if(news.readyState === 4)
+              {
+                console.info("embedded document returned " + String(news.status))
+                  if(news.status === 200 || news.status == 0)
+                  {
+                      var allText = news.responseText;
+                      document.getElementById("policies").innerHTML = allText;
+                  }
+              }
+          }
+          news.send(null);
+          } 
+          catch(e) {
+              if (window.console) {
+                console.error("Error while getting news: " + String(e));
+          }
+          document.getElementById("news").innerHTML = "Error while getting policies: " + String(e);
+      }
+      }
+      </script>
+      <noscript>
+        <p>JavaScript is not supported in the browser. View the site policies <a href="ttps://docs.google.com/document/d/1IkmJIMjGfCGxZC_255vPcdyUq1q5kjWwyH4-GTW7vBo/pub?embedded=true">here</a>.
+      </noscript>
+    </div>
+    <div class="footer">
+      <center>
+        <p style="color: #666666; font-size: 0.75em; float: left; vertical-align: middle;">Copyright © 2017 Nanomotion -- See the <a href="https://nanomotion.github.io/pages/faq/policies">copyright page</a> for more info.</p>
+        <div id="social-media" style="float: right;">
+          <a href="https://twitter.com/NanomotionDev"><img src="https://nanomotion.github.io/assets/img/twitter.svg" width="25" height="25"></a>&nbsp;
+          <a href="https://github.com/Nanomotion"><img src="https://nanomotion.github.io/assets/img/github.svg" width="25" height="25"></a>&nbsp;
+        </div>
+      </center>
+    </div>
+  </body>
+</html>
