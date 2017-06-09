@@ -15,13 +15,13 @@
       <script>
         document.getElementById("url").innerHTML = "The requested page " + document.location.pathname + " was not found";
         if (document.location.pathname.indexOf("/pages/help") != -1) {
-          document.location = "https://nanomotion.github.io/assets/html/errors/410.html?href=" + String(document.location.pathname);
+          document.location = "/pages/faq";
         } else if (document.location.pathname.indexOf("/pages/games") != -1) {
-          document.location = "https://nanomotion.github.io/assets/html/errors/410.html?href=" + String(document.location.pathname);
+          document.location = "http://error.nanomotion.xyz/410.html?href=" + String(document.location.pathname);
         } else if (document.location.pathname.indexOf("/pages/nano-ide") != -1) {
-          document.location = "https://nanomotion.github.io/assets/html/errors/410.html?href=" + String(document.location.pathname);
+          document.location = "http://error.nanomotion.xyz/410.html?href=" + String(document.location.pathname);
         } else if (document.location.pathname.indexOf("/pages/art") != -1) {
-          document.location = "https://nanomotion.github.io/assets/html/errors/coming-soon.html";
+          document.location = "http://error.nanomotion.xyz/coming-soon.html";
         }
       </script>
       <hr>
