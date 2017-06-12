@@ -15,12 +15,13 @@
     ga('send', 'pageview');
     </script>
     <!-- End Google Analytics -->
-    <meta name="keywords" content="nanomotion, github, nanomotion.github.io, games">
-    <meta name="description" content="Nanomotion.github.io | Games, GitHub Projects, and more">
+    <meta name="keywords" content="nano bot, nanobot, bot, discord, discord.py, discordapp, nanomotion, github, nanomotion.github.io, games">
+    <meta name="description" content="NanoBot Status">
     <style>
       .major {color:#c30;margin:0px;font-size:16px;}
       .minor {color:#f29d50;margin:0px;font-size:16px;}
       .good {color:#396;margin:0px;font-size:16px;}
+      h1,h2,h3 {text-align:center;}
     </style>
   </head>
   <body>
@@ -31,15 +32,29 @@
       <a hidemob href="https://discord.gg/eDRnXd6" class="right">Discord</a>
     </div>
     <div class="content">
-      <h1 style="text-align: center;">NanoBot Status</h1>
-      <h2 style="text-align: center;">Last updated <abbr title="Last Update">4:19 PM - 6/12/2017<!--<script>var currentdate = new Date();var datetime = currentdate.getDate() + "/" + (currentdate.getMonth()+1) + "/"  + currentdate.getFullYear() + " @ "  + currentdate.getHours() + ":" + currentdate.getMinutes() + ":" + currentdate.getSeconds();document.write(datetime)</script>--></abbr></h2>
+      <h1>NanoBot Status</h1>
+      <h2>Last updated <abbr title="Last Update">4:19 PM - 6/12/2017<!--<script>var currentdate = new Date();var datetime = currentdate.getDate() + "/" + (currentdate.getMonth()+1) + "/"  + currentdate.getFullYear() + " @ "  + currentdate.getHours() + ":" + currentdate.getMinutes() + ":" + currentdate.getSeconds();document.write(datetime)</script>--></abbr></h2>
+      <p style="text-align: center;"><a href="https://discord.gg/WJuusbN">Report an issue</a></p>
+      <h3 id="incidents">No incidents reported today.</h3>
+      <script async defer>
+        try {
+          var d = new Date();
+          var d = (d.getMonth()+1) + "-" + d.getDate() + "-" + d.getFullYear()
+          document.getElementById(d);
+          document.getElementById("incidents").style.display = "none";
+        } catch (e) {
+          console.log("undefined")
+        }
+      </script>
       <a name="6-12-2017"></a>
-      <ul class="help-topic-area" id="6-11-2017">
-        <li class="help-topic"><p class="good">11:05 AM - Everything back to normal.</p></li>
+      <h3>6/12/2017</h3>
+      <ul class="help-topic-area" id="6-12-2017">
+        <li class="help-topic"><p class="good">4:19 PM - Everything back to normal.</p></li>
         <li class="help-topic"><p class="major">2:33 PM - Major service outage.</p></li>
         <li class="help-topic"><p class="good">12:00 AM - NanoBot is running at 100%</p></li>
       </ul>
       <a name="6-11-2017"></a>
+      <h3>6/11/2017</h3>
       <ul class="help-topic-area" id="6-11-2017">
         <li class="help-topic"><p class="minor">9:42 PM - Service is back. We're keeping an eye on things.</p></li>
         <li class="help-topic"><p class="major">~ 4:00 PM - Major service outage.</p></li>
