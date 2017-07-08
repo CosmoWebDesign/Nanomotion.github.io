@@ -1,13 +1,14 @@
 body {
     padding: 0px;
     margin: 0px;
-    font-family: 'Segoe UI', 'Noto Sans UI', Arial, Helvetica, Roboto, sans-serif;
+    font-family: Whitney, 'Helvetica Neue','Segoe UI', 'Noto Sans UI', Arial, Helvetica, Roboto, sans-serif;
     color: #374355;
 	background-color: white;
 	background-size: 100%;
 	min-height: 100vh;
 	flex-direction: column;
 	font-weight: normal;
+	font-size: 18px;
 }
 
 h1,h2,h3,h4,h5,h6 {
