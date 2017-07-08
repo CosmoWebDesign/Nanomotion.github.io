@@ -65,6 +65,24 @@ a {
 	padding: 0px 10px;
 }
 
+.error {
+	color: white;
+	background-color: rgb(240, 71, 71);
+	padding: 10px;
+	border: 1px solid rgb(240, 71, 71);
+	border-radius: 3px;
+	margin: 5px;
+}
+
+.warn {
+	color: white;
+	background-color: rgb(250, 166, 26);
+	padding: 10px;
+	border: 1px solid rgb(250, 166, 26);
+	border-radius: 3px;
+	margin: 5px;
+}
+
 .products {
     position: relative !important;
     bottom: 6px !important;
