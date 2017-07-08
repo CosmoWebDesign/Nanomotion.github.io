@@ -20,6 +20,10 @@ b {
 	font-weight: 500;
 }
 
+.fa {
+	font-size: 20px;
+}
+
 hr {
 	border: 0px;
   	padding: 0.5px;
