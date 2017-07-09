@@ -168,148 +168,145 @@ button {
     src: url(https://discordapp.com/assets/748ac49ebe4bf0ddfe85c005be7c64c4.woff) format('woff')
 }
 .d-container {
-	code {
-	    font-family: SourceCodePro;
-	}
-
-	#wrapper {
-	    margin: 0;
-	    height: 100%;
-	    width: 100%;
-	}
-
-	footer {
-	    background: #23272A;
-	    padding-top: 20px;
-	    margin-top: 150px;
-	}
-
-	body,
-	html {
-	    background: #2C2F33;
+	background: #2C2F33;
 	    color: rgba(255, 255, 255, 0.6);
 	    font-size: 16px;
 	    height: 100%;
 	    width: 100%;
 	    font-family: Whitney, Helvetica Neue, Helvetica, Arial, sans-serif;
 	    margin: 0;
-	}
+}
 
-	h1,
-	h2,
-	h3,
-	h4,
-	h5 {
-	    color: #ffffff;
-	}
+.d-container code {
+    font-family: SourceCodePro;
+}
 
-	h1 {
-	    text-align: center;
-	}
+.d-container #wrapper {
+    margin: 0;
+    height: 100%;
+    width: 100%;
+}
 
-	h2 {
-	    font-weight: 700;
-	    font-size: 20px;
-	}
+.d-container footer {
+    background: #23272A;
+    padding-top: 20px;
+    margin-top: 150px;
+}
 
-	p {
-	    line-height: 27px;
-	    font-size: 17px;
-	}
+.d-container h1,
+.d-container h2,
+.d-container h3,
+.d-container h4,
+.d-container h5 {
+    color: #ffffff;
+}
 
-	.logo {
-	    margin: 20px;
-	}
+.d-container h1 {
+    text-align: center;
+}
 
-	.centre {
-	    text-align: center;
-	}
+.d-container h2 {
+    font-weight: 700;
+    font-size: 20px;
+}
 
-	header {
-	    top: 0;
-	    left: 0;
-	    background-image: url(https://discordapp.com/assets/697e63f59d8a1e1673fd9b551f674d1f.png);
-	    background-size: 270px 213px;
-	    width: 100%;
-	    padding-top: 40px;
-	    padding-bottom: 40px;
-	    margin-bottom: 50px;
-	}
+.d-container p {
+    line-height: 27px;
+    font-size: 17px;
+}
 
-	header .limit {
-	    width: 460px;
-	    text-align: center;
-	    margin: 0 auto;
-	}
+.d-container .logo {
+    margin: 20px;
+}
 
-	header p {
-	    box-shadow: 0 0 25px 1px rgba(114, 137, 218, 0.53);
-	}
+.d-container .centre {
+    text-align: center;
+}
 
-	.section {
-	    width: 800px;
-	    margin: 0 auto;
-	    padding-bottom: 15px;
-	}
+.d-container header {
+    top: 0;
+    left: 0;
+    background-image: url(https://discordapp.com/assets/697e63f59d8a1e1673fd9b551f674d1f.png);
+    background-size: 270px 213px;
+    width: 100%;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin-bottom: 50px;
+}
 
-	.button-wrapper {
-	    position: relative;
-	    margin: 75px auto;
-	    width: 400px;
-	}
+.d-container header .limit {
+    width: 460px;
+    text-align: center;
+    margin: 0 auto;
+}
 
-	.button {
-	    display: block;
-	    color: #7289da;
-	    background-color: #fff;
-	    border-radius: 3px;
-	    width: 100%;
-	    margin: 0 auto;
-	    padding: 25px 0;
-	    text-decoration: none;
-	    font-weight: 600;
-	    font-size: 22px;
-	    top: -2px;
-	    position: absolute;
-	    box-shadow: 0 2px 6px 0 rgba(0, 0, 0, .2);
-	    transition: all .3s cubic-bezier(.25, .25, .315, 1.35), top .1s linear;
-	}
+.d-container header p {
+    box-shadow: 0 0 25px 1px rgba(114, 137, 218, 0.53);
+}
 
-	.button-blue {
-	    color: #fff;
-	    background-color: #7289da;
-	}
+.d-container .section {
+    width: 800px;
+    margin: 0 auto;
+    padding-bottom: 15px;
+}
 
-	.button:hover {
-	    top: 0;
-	    box-shadow: none;
-	    color: #fff;
+.d-container .button-wrapper {
+    position: relative;
+    margin: 75px auto;
+    width: 400px;
+}
 
-	}
+.d-container .button {
+    display: block;
+    color: #7289da;
+    background-color: #fff;
+    border-radius: 3px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 25px 0;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 22px;
+    top: -2px;
+    position: absolute;
+    box-shadow: 0 2px 6px 0 rgba(0, 0, 0, .2);
+    transition: all .3s cubic-bezier(.25, .25, .315, 1.35), top .1s linear;
+}
 
-	a {
-	    text-decoration: none;
-	    color: #7289da;
-	    transition: all .3s cubic-bezier(.25, .25, .315, 1.35), top .1s linear;            
-	}
-	a:hover {
-	    color: #7890e7;
-	}
+.d-container .button-blue {
+    color: #fff;
+    background-color: #7289da;
+}
 
-	.codeblock {
-	    background: #2e3136;
-	    border: 2px solid #282b30;
-	    border-radius: 5px;
-	    box-sizing: border-box;
-	    padding: 8px;
-	    font-family: Consolas,Liberation Mono,Menlo,Courier,monospace; 
-	}
+.d-container .button:hover {
+    top: 0;
+    box-shadow: none;
+    color: #fff;
 
-	.codeblock .code-blue {
-	    color: #268bd2;
-	}
+}
 
-	.codeblock .code-gold {
-	    color: #b58900;
-	}
+.d-container a {
+    text-decoration: none;
+    color: #7289da;
+    transition: all .3s cubic-bezier(.25, .25, .315, 1.35), top .1s linear;            
+}
+.d-container a:hover {
+    color: #7890e7;
+}
+
+.codeblock {
+    background: #2e3136;
+    border: 2px solid #282b30;
+    border-radius: 5px;
+    box-sizing: border-box;
+    padding: 8px;
+    font-family: Consolas,Liberation Mono,Menlo,Courier,monospace; 
+}
+
+.codeblock .code-blue {
+    color: #268bd2;
+}
+
+.codeblock .code-gold {
+    color: #b58900;
 }
