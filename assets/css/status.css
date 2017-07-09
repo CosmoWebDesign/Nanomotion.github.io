@@ -1,0 +1,28 @@
+.status-wrapper {
+  margin: 10px;
+  color: rgb(35, 39, 42);
+  border: 1px solid #E0E0E0;
+  border-radius: 5px;
+}
+
+.div {
+  height: 1px;
+  margin: 5px;
+  background-color: #E0E0E0;
+}
+
+.green {
+  color: #2fcc66;
+}
+
+.yellow {
+  color: #f1c40f;
+}
+
+.orange {
+  color: #e67e22;
+}
+
+.red {
+  color: #e74c3c;
+}
