@@ -31,7 +31,7 @@
     <meta name="description" content="NanoBot - A bot to help fill your server with music and lots of easy-to-use commands!">
     <meta name="viewport" content="width=device-width, initial-scale=1">
   </head>
-  <body style="overflow: hidden;" onresize="document.getElementsByClassName('main-container')[0].setAttribute('style', 'height: ' + String(window.innerHeight) + 'px;');">
+  <body onresize="document.getElementsByClassName('main')[0].setAttribute('style', 'height: ' + String(window.innerHeight) + 'px;');">
     <div class="navbar" style="margin: 0px;">
       <a href="/pages/bot" style="position: relative; bottom: 4.5px;"><img src="https://nanomotion.github.io/assets/img/logo.svg">NanoBot</a>
       <a class="products right" href="/pages/bot/invite">Add<t hidemob> to Discord</t></a>
@@ -40,7 +40,7 @@
       <a class="right" href="https://discord.gg/eDRnXd6"><i class="fa fa-life-ring" aria-hidden="true"></i><t hidemob> Support</t></a>
       <a hidemob class="right" href="/pages/bot/about"><i class="fa fa-info-circle" aria-hidden="true"></i><t hidemob> About</t></a>
     </div>
-    <div class="main-container">  
+    <div class="main">  
       <center>
         <h1 class="title" style="margin-top: 25px;">NanoBot <sup class="text-inset">Beta</sup></h1>
         <h3 id="about" style="margin: auto 15%;">A bot to help fill your server with music and lots of easy-to-use commands!<br>Over <b>35 thousand</b> people are using NanoBot.</h3><br><br>
@@ -49,7 +49,7 @@
       </center>
     </div>
     <script async defer>
-      document.getElementsByClassName('main-container')[0].setAttribute('style', 'min-height: ' + String(window.innerHeight) + 'px;');
+      document.getElementsByClassName('main')[0].setAttribute('style', 'min-height: ' + String(window.innerHeight) + 'px;');
     </script>
     <div class="d-container">
       <header>
