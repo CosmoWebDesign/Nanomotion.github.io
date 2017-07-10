@@ -259,7 +259,7 @@ button {
     max-width: 400px;
 }
 
-.d-container .button {
+.d-container .btn {
     display: block;
     color: #7289da;
     background-color: #fff;
@@ -276,7 +276,7 @@ button {
     transition: all .3s cubic-bezier(.25, .25, .315, 1.35), top .1s linear;
 }
 
-.d-container .button-blue {
+.d-container .btn-blue {
     color: #fff;
     background-color: #7289da;
 }
