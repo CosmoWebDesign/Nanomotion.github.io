@@ -5,10 +5,11 @@
   border-radius: 5px;
 }
 
-.div {
+.divider {
   height: 1px;
   margin: 5px;
   background-color: #E0E0E0;
+  text-align: left;
 }
 
 .green {
@@ -25,4 +26,8 @@
 
 .red {
   color: #e74c3c;
+}
+
+.right {
+  text-align: right !important;
 }
