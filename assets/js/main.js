@@ -1,7 +1,6 @@
 // Copyright (C) Nanomotion 2017
 
 console.log("%c Welcome to Nanomotion.github.io!", "color: blue; font-family: 'Segoe UI'; font-size: 22px;");
-console.log("Loading functions...");
 
 function getParameterByName(name, url) {
     if (!url) {
@@ -56,20 +55,18 @@ var forceLanguage = function(lang) {
     }
 }
 
-console.log("Loaded functions");
-
 if (!(document.location.hostname == "nanomotion.github.io")) {
   window.open("https://nanomotion.github.io" + document.location.pathname);
   window.close();
 }
 
-/*try {
+try {
     var a = document.getElementById('unsupported-browser-notif');
-    a.innerHTML = "<span onclick='this.parentElement.style.display=\"none\";' style='float: right; cursor: pointer;'>&times;</span>We changed our terms of service! <a style=\"color: white; text-decoration: underline;\" href=\"https://nanomotion.github.io/assets/html/faq/site-policies.html\">Take a look</a>";
+    a.innerHTML = "<span onclick='this.parentElement.style.display=\"none\";' style='float: right; cursor: pointer;'>&times;</span>We changed our terms of service! <a style=\"color: white; text-decoration: underline;\" href=\"http://terms.nanomotion.xyz\">Take a look</a>";
     a.style.display = "block";
 } catch(e) {
-    console.info("document.getElementById('unsupported-browser-notif'); failed: " + e);
-}*/
+    console.info("failed to change banner: " + e);
+}
 
 /*
 var x = getParameterByName("a");
