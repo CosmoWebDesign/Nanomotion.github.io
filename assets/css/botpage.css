@@ -170,7 +170,7 @@ button {
     font-weight: 500;
     src: url(https://discordapp.com/assets/748ac49ebe4bf0ddfe85c005be7c64c4.woff) format('woff')
 }
-.d-container {
+.d-container{
 	background: #2C2F33;
 	    color: rgba(255, 255, 255, 0.6);
 	    font-size: 16px;
@@ -312,4 +312,33 @@ button {
 
 .codeblock .code-gold {
     color: #b58900;
+}
+
+.float-container {
+	margin: 10px 2.5%;
+	align-items: center;
+  justify-content: center;
+  align-items: center;
+	display: flex;
+  -webkit-box-direction: normal;
+  -webkit-box-pack: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+  -webkit-box-align: stretch;
+}
+
+.float {
+  height: 200px;
+  width: 48%;
+  background-color: white;
+  color: #23272A;
+	text-align: center;
+	transition: 0.3s;
+  font-size: 16px;
+  display: flex;
+  flex-direction: column;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-box-align: center;
+  align-items: center;
 }
