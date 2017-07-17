@@ -329,7 +329,7 @@ button {
 
 .float-box {
   width: 40%;
-	mix-width: 300px;
+	min-width: 300px;
 	padding-bottom: 20px;
   color: #23272A;
 	text-align: center;
