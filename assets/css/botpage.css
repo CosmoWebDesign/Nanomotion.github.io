@@ -327,7 +327,7 @@ button {
   -webkit-box-align: stretch;
 }
 
-.float {
+.float-box {
   height: 200px;
   width: 48%;
   background-color: white;
