@@ -32,6 +32,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
   </head>
   <body onresize="document.getElementsByClassName('main')[0].setAttribute('style', 'height: ' + String(window.innerHeight) + 'px;');">
+    <div class="unsupported-browser-notif" id="unsupported-browser-notif"><span onclick="this.parentElement.style.display='none';" style="float: right; cursor: pointer;">&times;</span>Introducing <u><a href="/pages/bot/partners">NanoBot Partners</a></u>&dash; Get access to cool exclusive features for your Discord server.</div>
     <div class="navbar" style="margin: 0px;">
       <a href="/pages/bot" style="position: relative; bottom: 4.5px;"><img src="https://nanomotion.github.io/assets/img/logo.svg">NanoBot</a>
       <a class="products right" href="/pages/bot/invite">Add<t hidemob> to Discord</t></a>
@@ -54,6 +55,7 @@
     <script async defer>
       document.getElementsByClassName('main')[0].setAttribute('style', 'min-height: ' + String(window.innerHeight) + 'px;');
     </script>
+    <a name="features"></a>
     <div class="d-container">
       <div id="wrapper">
         <header>
