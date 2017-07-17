@@ -328,9 +328,7 @@ button {
 }
 
 .float-box {
-  height: 200px;
-  width: 48%;
-  background-color: white;
+  width: 40%;
   color: #23272A;
 	text-align: center;
 	transition: 0.3s;
