@@ -1,7 +1,7 @@
 body {
   margin: 0px;
   font-family: Whitney, 'Helvetica Neue', 'Segoe UI', 'Noto Sans UI', Helvetica, Arial;
-  background: repeating-linear-gradient( -45deg, #F5F5F4, #f5f5f5 20px, #f1f1f1 20px, #f1f1f1 40px);
+  background: #7289DA;
   min-height: 100vh;
   flex-direction: column;
   font-weight: normal;
@@ -19,9 +19,11 @@ b {
 	font-weight: bold !important;
 }
 
+/*repeating-linear-gradient(-45deg, #F5F5F4, #f5f5f5 20px, #f1f1f1 20px, #f1f1f1 40px)*/
+
 .main {
   color: white;
-	background: repeating-linear-gradient(-45deg, #F5F5F4, #f5f5f5 20px, #f1f1f1 20px, #f1f1f1 40px) url("") no-repeat center center;
+	background: #7289DA url("") no-repeat center center;
 }
 
 .main a {
