@@ -53,7 +53,10 @@
       </center>
     </div>
     <script async defer>
-      document.getElementsByClassName('main')[0].setAttribute('style', 'min-height: ' + String(window.innerHeight) + 'px;');
+      var id = Math.floor(Math.random() * 4) + 1;
+      var el = document.getElementsByClassName('main')[0];
+      el.setAttribute('style', 'min-height: ' + String(window.innerHeight) + 'px;');
+      el.style.background = "#7289DA url('https://nanomotion.github.io/assets/img/numbani-" + String(id) + ".jpg') no-repeat center center";
     </script>
     <a name="features"></a>
     <div class="d-container">
