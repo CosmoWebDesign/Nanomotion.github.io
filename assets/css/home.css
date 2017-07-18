@@ -229,11 +229,6 @@ button:hover,.button:hover {
   #footer-logo {
     float: initial !important;
   }
-  
-  .main {
-    margin-bottom: 42.5%;
-    -webkit-margin-after: 42.5%;
-  }
 	
 	.inset {
 		margin: 40px 0px;
