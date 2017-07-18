@@ -23,7 +23,7 @@ b {
 
 .main {
   color: white;
-	background: #7289DA no-repeat center center;
+	background: #7289DA url("https://nanomotion.github.io/assets/img/numbani-4.jpg") no-repeat center center;
 	background-attachment: fixed;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
