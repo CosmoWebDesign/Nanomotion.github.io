@@ -60,7 +60,7 @@ a:hover {
   text-decoration: none;
   transition: 0.3s;
   margin: 0px 20px;
-	float: left !important;
+	float: left;
 }
 
 .navbar a:hover {
