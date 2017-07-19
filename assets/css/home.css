@@ -71,7 +71,7 @@ a {
 }
 
 .navbar .right {
-	float: right;
+	float: right !important;
 	padding: 0px 10px;
 }
 
