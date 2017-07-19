@@ -52,11 +52,15 @@ a:hover {
   margin-bottom: 0px !important;
 }
 
+.transparent {
+	background-color: rgba(0,0,0,0) !important;
+}
+
 .navbar a {
-  color: black;
   text-decoration: none;
   transition: 0.3s;
   margin: 0px 20px;
+	float: left !important;
 }
 
 .navbar a:hover {
