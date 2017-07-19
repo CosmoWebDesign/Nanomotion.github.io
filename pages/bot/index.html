@@ -32,18 +32,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
   </head>
   <body onresize="document.getElementsByClassName('main')[0].setAttribute('style', 'height: ' + String(window.innerHeight) + 'px;');">
-    <div class="unsupported-browser-notif" id="unsupported-browser-notif"><span onclick="this.parentElement.style.display='none';" style="float: right; cursor: pointer;">&times;</span>Introducing <u><a href="/pages/bot/partners">NanoBot Partners</a></u>&dash; Get access to cool exclusive features for your Discord server.</div>
-    <div class="navbar" style="margin: 0px;">
-      <a href="/pages/bot" style="position: relative; bottom: 4.5px;"><img src="https://nanomotion.github.io/assets/img/logo.svg">NanoBot</a>
-      <a class="products right" href="/pages/bot/invite">Add<t hidemob> to Discord</t></a>
-      <a hidesmallmob class="right" href="http://nanomotion.xyz/NanoBot"><i class="fa fa-book" aria-hidden="true"></i><t hidemob> Docs</t></a>
-      <a hidesmallmob class="right" href="https://github.com/Nanomotion/NanoBot"><i class="fa fa-github" aria-hidden="true"></i><t hidemob> GitHub</t></a>
-      <a class="right" href="https://discord.gg/eDRnXd6"><i class="fa fa-life-ring" aria-hidden="true"></i><t hidemob> Support</t></a>
-      <a hidemob class="right" href="/pages/bot/about"><i class="fa fa-info-circle" aria-hidden="true"></i><t hidemob> About</t></a>
-    </div>
+    <div class="unsupported-browser-notif" id="unsupported-browser-notif" style="font-family: 'Segoe UI' !important;"><span onclick="this.parentElement.style.display='none';" style="float: right; cursor: pointer;">×</span>Introducing <u><a href="/pages/bot/partners">NanoBot Partners</a></u>&dash; Get access to cool exclusive features for your Discord server.</div>
     <div class="main">  
+      <div class="navbar" style="margin: 0px;">
+        <a href="/pages/bot" style="position: relative; bottom: 4.5px;"><img src="https://nanomotion.github.io/assets/img/logo.svg">NanoBot</a>
+        <a class="products right" href="/pages/bot/invite">Add<t hidemob> to Discord</t></a>
+        <a hidesmallmob class="right" href="http://nanomotion.xyz/NanoBot"><i class="fa fa-book" aria-hidden="true"></i><t hidemob> Docs</t></a>
+        <a hidesmallmob class="right" href="https://github.com/Nanomotion/NanoBot"><i class="fa fa-github" aria-hidden="true"></i><t hidemob> GitHub</t></a>
+        <a class="right" href="https://discord.gg/eDRnXd6"><i class="fa fa-life-ring" aria-hidden="true"></i><t hidemob> Support</t></a>
+        <a hidemob class="right" href="/pages/bot/about"><i class="fa fa-info-circle" aria-hidden="true"></i><t hidemob> About</t></a>
+      </div>
       <center>
-        <h1 class="title" style="margin-top: 25px;">NanoBot <sup class="text-inset">Beta</sup></h1>
+        <h1 class="title" style="margin-top: 0px; padding-top: 25px;">NanoBot <sup class="text-inset">Beta</sup></h1>
         <h2 id="about" style="margin: auto 15%;">
           A Discord bot to help fill your server with music, Overwatch stats, and more!<br>
           Over <b>30 thousand</b> people are using NanoBot.
@@ -55,9 +55,13 @@
     <script async defer>
       //var id = Math.floor(Math.random() * 4) + 1;
       var el = document.getElementsByClassName('main')[0];
-      el.setAttribute('style', 'min-height: ' + String(window.innerHeight) + 'px;');
+      el.setAttribute('style', 'height: ' + String(window.innerHeight) + 'px;');
       //el.style.background = "#7289DA url('https://nanomotion.github.io/assets/img/numbani-" + String(id) + ".jpg') no-repeat center center";
     </script>
+    <div class="stripe">
+      <h2>Introducing NanoBot 1.0</h2>
+      <p>The 1.0 release of NanoBot will be the first full release since development first began in March and the public beta in May. By the time that this version is released, NanoBot will have many features, and all (if not, most) bugs will be patched. For now, while the public beta is still going on, you can <a href="/pages/bot/invite">try the beta version</a> to help decide what will be added for the first release.</p>
+    </div>
     <a name="features"></a>
     <div class="d-container">
       <div id="wrapper">
@@ -67,11 +71,19 @@
         </header>
         <div class="section">
           <h2>MUSIC PLAYER</h2>
-          <p>NanoBot comes with a music player that you can use to play all of your favorite memes, songs, and other videos. You can play music from over 100 websites, including YouTube, Vimeo, Mixer, and many more! You can view the full list of sites <a href="http://rg3.github.io/youtube-dl/supportedsites.html" target="_blank">here</a>.</p>
+          <p><i>I do not know about this music, but I am programmed to assist where I can.</i> NanoBot comes with a music player that you can use to play all of your favorite memes, songs, and other videos. You can play music from over 100 websites, including YouTube, Vimeo, Mixer, and many more! You can view the full list of sites <a href="http://rg3.github.io/youtube-dl/supportedsites.html" target="_blank">here</a>.</p>
         </div>
         <div class="section">
-          <h2>MODERATION</h2>
-          <p>Some features that NanoBot has are useful for moderation. You can kick and ban members with reasons and bulk-delete messages.</p>
+          <h2>LIGHT MODERATION</h2>
+          <p><i>Cease your resistance!</p> Some features that NanoBot has are useful for moderation. You can kick and ban members with reasons and bulk-delete messages.</p>
+        </div>
+        <div class="section">
+          <h2>OVERWATCH STATS</h2>
+          <p><i>I'm simply following my program.</i> NanoBot has a few commands involving the game <a href="//playoverwatch.com">Overwatch</a>. View map and hero info, and even competitive stats!</p>
+        </div>
+        <div class="section">
+          <h2>FUN COMMANDS</h2>
+          <p><i><s>Error 404: Sarcasm module not found</s></i> Need to look at some random dog or cat, or need some features to lighten up your server? NanoBot comes with commands for that.</p>
         </div>
         <div class="section">
           <h2>INFORMATION COMMANDS</h2>
