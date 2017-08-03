@@ -69,7 +69,7 @@ try {
 }
 
 
-var x = getParameterByName("a");
+/*var x = getParameterByName("a");
 
 if (!(x == "1")) {
   document.location = "https://nanomotion.github.io/assets/html/errors/coming-soon.html";
@@ -77,7 +77,7 @@ if (!(x == "1")) {
   if (window.console) {
     console.info("Dev mode active");
   }
-}
+}*/
 
 
 var language = window.navigator.userLanguage || window.navigator.language;
