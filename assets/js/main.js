@@ -1,6 +1,6 @@
 // Copyright (C) Nanomotion 2017
 
-console.log("%c Welcome to Nanomotion.github.io!", "color: blue; font-family: 'Segoe UI'; font-size: 22px;");
+// console.log("%c Welcome to Nanomotion.github.io!", "color: blue; font-family: 'Segoe UI'; font-size: 22px;");
 
 function getParameterByName(name, url) {
     if (!url) {
@@ -68,7 +68,7 @@ try {
     console.info("failed to change banner: " + e);
 }
 
-/*
+
 var x = getParameterByName("a");
 
 if (!(x == "1")) {
@@ -78,7 +78,7 @@ if (!(x == "1")) {
     console.info("Dev mode active");
   }
 }
-*/
+
 
 var language = window.navigator.userLanguage || window.navigator.language;
 
