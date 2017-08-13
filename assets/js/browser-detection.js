@@ -20,5 +20,5 @@ if (window.console) {
 
 if (!((getBrowser() == "unknown") || (getBrowser() == "IE"))) {
   var x = document.getElementById("unsupported-browser-notif");
-  x.style.display = "none";
+  /*x.style.display = "none";*/
 }
