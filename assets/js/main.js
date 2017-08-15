@@ -62,7 +62,7 @@ if (!(document.location.hostname == "nanomotion.github.io")) {
 
 try {
     var a = document.getElementById('unsupported-browser-notif');
-    a.innerHTML = "<span onclick='this.parentElement.style.display=\"none\";' style='float: right; cursor: pointer;'>&times;</span>We changed our terms of service! <a style=\"color: white; text-decoration: underline;\" href=\"http://terms.nanomotion.xyz\">Take a look</a>";
+    a.innerHTML = "<span onclick='this.parentElement.style.display=\"none\";' style='float: right; cursor: pointer;'>&times;</span>We changed our terms of service! <a style=\"color: white; text-decoration: underline;\" href=\"https://nanomotion.github.io/pages/faq/policies\">Take a look</a>";
     a.style.display = "block";
 } catch(e) {
     console.info("failed to change banner: " + e);
