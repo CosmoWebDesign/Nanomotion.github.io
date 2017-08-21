@@ -235,19 +235,44 @@ button:hover,.button:hover {
 	}
 }
 
-.text-badge {
-  background-color: #28B3CA;
-  color: white;
-  border: 1px solid #28B3CA;
-  border-radius: 4px;
-  text-transform: uppercase;
-  font-size: 12px;
-  padding: 1px 2px;
-  position: relative;
-  left: 3px;
-  vertical-align: middle;
-	letter-spacing: 0px;
- }
+.text-badge-orange {
+    margin-left: 5px;
+    font-size: 10px;
+    color: white;
+    background-color: #f97d03;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    font-weight: bolder;
+    padding: 2.5px 7.5px;
+    border-radius: 30px;
+    vertical-align: middle;
+}
+
+.text-badge-red {
+    margin-left: 5px;
+    font-size: 10px;
+    color: white;
+    background-color: #ff1313;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    font-weight: bolder;
+    padding: 2.5px 7.5px;
+    border-radius: 30px;
+    vertical-align: middle;
+}
+
+.text-badge-blue {
+    margin-left: 5px;
+    font-size: 10px;
+    color: white;
+    background-color: #28B3CA;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    font-weight: bolder;
+    padding: 2.5px 7.5px;
+    border-radius: 30px;
+    vertical-align: middle;
+}
 
 .unsupported-browser-notif {
   background-color: #0081D5;
