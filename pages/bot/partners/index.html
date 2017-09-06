@@ -32,7 +32,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
   </head>
   <body onresize="document.getElementsByClassName('main')[0].setAttribute('style', 'height: ' + String(window.innerHeight) + 'px;');">
-    <div class="main">  
+    <div class="main">
+      <div class="unsupported-browser-notif" id="unsupported-browser-notif-ignore" style="font-family: 'Segoe UI' !important;"><span onclick="this.parentElement.style.display='none';" style="float: right; cursor: pointer;">×</span>The NanoBot Partners website is currently being redesigned. You can view the new NanoBot site <u><a href="https://nanobot-discord.github.io">here</a></u>.</div>
       <div class="navbar transparent" style="margin: 0px;">
         <a href="/pages/bot/partners" style="position: relative; bottom: 4.5px;"><img src="https://nanomotion.github.io/assets/img/logo.svg">NanoBot Partners</a>
         <a class="products right" href="/pages/bot/invite">Apply</a>
