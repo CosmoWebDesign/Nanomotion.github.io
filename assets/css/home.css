@@ -328,6 +328,10 @@ button:hover,.button:hover {
 		animation-duration: 1.5s;
 		animation-iteration-count: infinite;
 	}
+	
+	.main {
+		border-radius: 0px !important;
+	}
 }
 
 .help-topic {
@@ -391,6 +395,14 @@ button:hover,.button:hover {
 	color: gray !important;
 }
 
+.shake {
+	animation-name: sh-ake;
+	animation-duration: 6s;
+	animation-iteration-count: infinite;
+	position: relative;
+  	animation-delay: 2s;
+}
+
 @keyframes float {
 	0% {top: 0px;}
 	10% {top: -1px;}
@@ -422,4 +434,14 @@ button:hover,.button:hover {
 @keyframes firework {
 	0% {background-position: 0px;}
 	100% {background-position: -1548px;}
+}
+
+@keyframes sh-ake {
+  0% {left: 0px;}
+	1% {left: 5px;}
+	3% {left: -5px;}
+	4% {left: 0px;}
+	5% {left: 5px;}
+	7% {left: -5px;}
+	8% {left: 0px;}
 }
