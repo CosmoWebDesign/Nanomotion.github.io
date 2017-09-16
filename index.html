@@ -17,7 +17,21 @@
     <meta name="keywords" content="nanomotion, github, nanomotion.github.io, software, python, discord, discord bot, discord bots, visual basic, html, coding, programming">
     <meta name="description" content="Quality, open-sourced software for everyone.">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <style>#main-container {background-color: #7289DA !important}</style>
+    <style>
+      #main-container {
+        background-color: #7289DA !important;
+      }
+      .nav-logo {
+        background: white;
+        border-radius: 100px;
+        padding: 2px;
+      }
+      .white-btn {
+        background: white;
+        border-color: white;
+        color: black !important;
+      }
+    </style>
   </head>
   <body onresize="document.getElementsByClassName('main-container')[0].setAttribute('style', 'height: ' + String(window.innerHeight) + 'px;');">
     <div class="main-container" id="main-container">
@@ -27,9 +41,9 @@
       <script async src="https://nanomotion.github.io/assets/js/main.js"></script>
       <!-- End browser detection -->
       <div class="navbar" style="background-color: #7289DA; color: white !important;">
-        <img src="https://nanomotion.github.io/assets/img/logo.svg">
-        <a style="position: relative; bottom: 6.5px;"  hidemob href="/">Nanomotion</a>
-        <a href="#projects" class="products right">Products</a>
+        <img class="nav-logo" src="https://nanomotion.github.io/assets/img/logo.svg">
+        <a style="position: relative; bottom: 12px;"  hidemob href="/">Nanomotion</a>
+        <a href="#projects" class="products right white-btn">Products</a>
         <a hidemob href="https://discord.gg/eDRnXd6" class="right">Discord</a>
         <a hidesmallmob href="https://nanobot-discord.github.io" class="right">NanoBot</a>
       </div>
@@ -88,9 +102,7 @@
     </div>
     <!-- End Projects -->
     <div id="proj-buttons" class="context">
-      <center>
-        <button onClick="document.location = 'https://nanomotion.github.io/pages/projects';">All Projects</button>
-      </center>
+        <a style="text-align: center;" href="https://github.com/Nanomotion?tab=repositories">View More</a>
     </div>
     <div class="stripe">
       <text style="padding: 5px; background-color: white; border: 1px hidden; border-radius: 5px;">Featured Project</text> Check out <a href="https://github.com/Nanomotion/Nano-IDE">Nano IDE</a>, a fully-equipped, modern IDE and text editor.
@@ -105,17 +117,5 @@
         </div>
       </center>
     </div>
-    <!-- Start of Survicate (www.survicate.com) code -->
-    <script type="text/javascript">
-     (function(w) {
-       w['_sv'] = {trackingCode: 'UTEocvMWfWvScZtNXazCBauRCvkHhECG'};
-       var s = document.createElement('script');
-       s.src = 'https://api.survicate.com/assets/survicate.js';
-       s.async = true;
-       var e = document.getElementsByTagName('script')[0];
-       e.parentNode.insertBefore(s, e);
-     })(window);
-    </script>
-    <!-- End of Survicate code -->
   </body>
 </html>
