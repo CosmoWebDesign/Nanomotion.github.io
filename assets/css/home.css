@@ -105,7 +105,17 @@ a {
 }
 
 .products:hover {
-    color: white !important;
+    color: white;
+}
+
+.white-btn {
+	background: white;
+	border-color: white;
+	color: black !important;
+}
+
+.white-btn:hover {
+	color: white !important;
 }
 
 .navbar img {
