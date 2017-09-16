@@ -233,6 +233,10 @@ button:hover,.button:hover {
 	.inset {
 		margin: 40px 0px;
 	}
+	
+	.main {
+		border-radius: 0px !important;
+	}
 }
 
 .text-badge-orange {
@@ -327,10 +331,6 @@ button:hover,.button:hover {
 		animation-name: float;
 		animation-duration: 1.5s;
 		animation-iteration-count: infinite;
-	}
-	
-	.main {
-		border-radius: 0px !important;
 	}
 }
 
