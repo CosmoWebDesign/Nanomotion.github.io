@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="https://nanomotion.github.io/favicon.ico" rel="shortcut icon" type="image/x-icon">
+    <link rel="stylesheet" href="https://nanomotion.github.io/assets/css/errors.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>410 - Page removed</title>
+  </head>
+  <body>
+    <div class="error-msg">
+      <a href="https://nanomotion.github.io"><img width="10%" title="Nanomotion" src="https://nanomotion.github.io/assets/img/logo.svg" alt="" /></a>
+      <h1 style="font-size: 45px; margin-bottom: 2px;">410!</h1>
+      <h3 style="font-size: 27.5px;">That page doesn't exist anymore.</h3>
+      <hr>
+      <p style="color: gray;" id="url">The requested page {url} was removed</p>
+      <div id="specials"></div>
+      <script>
+        function getParameterByName(name, url) {
+          if (!url) {
+            url = window.location.href;
+          }
+          name = name.replace(/[\[\]]/g, "\\$&");
+          var regex = new RegExp("[?&]" + name + "(=([^&#]*)|&|#|$)"),
+              results = regex.exec(url);
+          if (!results) return null;
+          if (!results[2]) return '';
+          return decodeURIComponent(results[2].replace(/\+/g, " "));
+      }
+      x = getParameterByName("href");
+      document.getElementById("url").innerHTML = "The requested page " + x + " was removed";
+      y = document.getElementById("specials");
+      if (x.indexOf("/pages/help/topics/legal/copyright-policy") != -1) {
+        y.innerHTML = "Redirecting... Click <a href='https://nanomotion.github.io/assets/html/faq/site-policies.html'>here</a> if you are not redirected.";
+        document.location = "https://nanomotion.github.io/assets/html/faq/site-policies.html";
+      } else if (x.indexOf("/pages/help") != -1) {
+        y.innerHTML = "<a href='https://nanomotion.github.io/assets/html/faq/help-removal.html'>More info</a>";
+      }
+      </script>
+    </div>
+  </body>
+</html>
