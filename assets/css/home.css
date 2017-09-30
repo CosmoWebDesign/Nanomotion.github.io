@@ -248,6 +248,9 @@ button:hover,.button:hover {
 	.main {
 		border-radius: 0px !important;
 	}
+	
+	.exp-box {
+		width: 100% !importantl
 }
 
 .text-badge-orange {
@@ -370,6 +373,16 @@ button:hover,.button:hover {
 	float: right;
 	text-align: right;
 	max-width: 65%;
+}
+
+.exp-container {
+	padding-top: 15px;
+}
+
+.exp-box {
+	float: left;
+	width: 33%;
+	padding: 10px 0px;
 }
 
 .arrow-down {
