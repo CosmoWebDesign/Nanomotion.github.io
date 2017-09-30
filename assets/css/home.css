@@ -252,6 +252,10 @@ button:hover,.button:hover {
 	.exp-box {
 		width: 100% !important
 	}
+	
+	.exp-container {
+		padding-bottom: 275px;
+	}
 }
 
 .text-badge-orange {
