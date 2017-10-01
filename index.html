@@ -27,10 +27,6 @@
   <body onresize="document.getElementsByClassName('main-container')[0].setAttribute('style', 'height: ' + String(window.innerHeight) + 'px;');">
     <div class="main-container" id="main-container">
       <noscript><div class="unsupported-browser-notif" id="unsupported-browser-notif"><span onclick="this.parentElement.style.display='none';" style="float: right; cursor: pointer;">&times;</span><strong>Hey there!</strong> It seems that you're using an unsupported browser. Please use a different browser such as <u><a href="https://www.google.com/chrome/">Google Chrome</a></u> or <u><a href="https://www.mozilla.com/firefox">Firefox</a></u>.</div></noscript>
-      <!-- Begin browser detection -->
-      <script async src="https://nanomotion.github.io/assets/js/browser-detection.js"></script>
-      <script async src="https://nanomotion.github.io/assets/js/main.js"></script>
-      <!-- End browser detection -->
       <div class="navbar" style="background-color: rgba(0,0,0,0); color: white !important;">
         <img class="nav-logo" src="https://nanomotion.github.io/assets/img/logo.svg">
         <a style="position: relative; bottom: 12px;"  hidemob href="/">Nanomotion</a>
@@ -40,7 +36,7 @@
       </div>
       <div class="main" style="margin-top: 100px !important;background: white;border-radius: 7px;color: black;max-width: 500px;margin: auto;padding: 20px;">  
         <h1 class="title shake" style="font-size: 2.5em;">Nanomotion</h1>
-        <h2 id="about" style="margin: auto 15%;">Quality, open-sourced software for everyone.</h2><br><br>
+        <h2 id="about" style="margin: auto 15%;">Free, open-sourced software for everybody.</h2><br><br>
         <button style="width: 200px;" onClick="document.location = '#projects';">Projects</button>&nbsp;
         <button style="width: 200px;" onClick="document.location = 'https://github.com/Nanomotion?tab=repositories';">GitHub</button><br>
       </div>
@@ -59,6 +55,7 @@
         <ul class="help-topic-area">
           <li class="help-topic">
             <a href="https://nanomotion.github.io/pages/bot">NanoBot</a>
+            <span class="text-badge-blue">Featured</span>
             <span hidemob class="description">A music, fun, and moderation bot for Discord, written in <i>discord.py</i>.</span>
           </li>
           <li class="help-topic">
@@ -81,7 +78,6 @@
           </li>
           <li class="help-topic">
             <a href="https://github.com/Nanomotion/Nano-IDE">Nano IDE</a>
-            <span class="text-badge-blue">Featured</span>
             <span hidemob class="description">Edit and save files with this modern, customizable text editor.</span>
           </li>
           <li class="help-topic">
@@ -118,6 +114,17 @@
           <h3>3+ Years</h3>
         </div>
       </div>
+    </div>
+    <div class="context">
+      <a href="https://twitter.com/NanoDev_">
+        <div class="twitter-btn">Twitter</div>
+      </a>
+      <a href="https://discord.me/nanobot">
+        <div class="discord-btn">Discord</div>
+      </a>
+      <a href="https://github.com/Nanomotion">
+        <div class="github-btn">GitHub</div>
+      </a>
     </div>
     <div class="footer">
       <p style="float: right;">
