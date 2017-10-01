@@ -11,10 +11,12 @@ body {
 	flex-direction: column;
 	font-weight: normal;
 	font-size: 14px;
+	font-weight: lighter;
 }
 
 h1,h2,h3,h4,h5,h6 {
 	margin: 5px;
+	font-weight: lighter;
 }
 
 hr {
@@ -192,7 +194,7 @@ button:hover,.button:hover {
 
 .context {
 	color: #23272A !important;
-  background-color: #fafafa;
+  background-color: white;
   padding: 2.5%;
   transition: 0.3s;
   text-align: center;
@@ -463,4 +465,40 @@ button:hover,.button:hover {
 	5% {left: 5px;}
 	7% {left: -5px;}
 	8% {left: 0px;}
+}
+
+.twitter-btn {
+	font-family: Karla, sans-serif;
+	font-size: 16px;
+	cursor: pointer;
+	padding: 7px 20px;
+	color: white;
+	border-radius: 3px;
+	margin: 5px;
+	background-color: #00b6f1;
+ 	transition: 0.3s;
+}
+
+.discord-btn {
+	font-family: Karla, sans-serif;
+	font-size: 16px;
+	cursor: pointer;
+	padding: 7px 20px;
+	color: white;
+	border-radius: 3px;
+	margin: 5px;
+	background-color: #7289DA;
+ 	transition: 0.3s;
+}
+
+.github-btn {
+	font-family: Karla, sans-serif;
+	font-size: 16px;
+	cursor: pointer;
+	padding: 7px 20px;
+	color: white;
+	border-radius: 3px;
+	margin: 5px;
+	background-color: #24292e;
+ 	transition: 0.3s;
 }
