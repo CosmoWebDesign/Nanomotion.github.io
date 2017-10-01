@@ -477,6 +477,7 @@ button:hover,.button:hover {
 	margin: auto;
 	background-color: #00b6f1;
  	transition: 0.3s;
+	margin-bottom: 5px;
 }
 
 .discord-btn {
@@ -489,6 +490,7 @@ button:hover,.button:hover {
 	margin: auto;
 	background-color: #7289DA;
  	transition: 0.3s;
+	margin-bottom: 5px;
 }
 
 .github-btn {
@@ -501,4 +503,5 @@ button:hover,.button:hover {
 	margin: auto;
 	background-color: #24292e;
  	transition: 0.3s;
+	margin-bottom: 5px;
 }
