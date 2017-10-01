@@ -474,7 +474,7 @@ button:hover,.button:hover {
 	padding: 7px 20px;
 	color: white;
 	border-radius: 3px;
-	margin: 5px;
+	margin: auto;
 	background-color: #00b6f1;
  	transition: 0.3s;
 }
@@ -486,7 +486,7 @@ button:hover,.button:hover {
 	padding: 7px 20px;
 	color: white;
 	border-radius: 3px;
-	margin: 5px;
+	margin: auto;
 	background-color: #7289DA;
  	transition: 0.3s;
 }
@@ -498,7 +498,7 @@ button:hover,.button:hover {
 	padding: 7px 20px;
 	color: white;
 	border-radius: 3px;
-	margin: 5px;
+	margin: auto;
 	background-color: #24292e;
  	transition: 0.3s;
 }
