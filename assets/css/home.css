@@ -1,7 +1,9 @@
+@import url('https://fonts.googleapis.com/css?family=Karla');
+
 body {
     padding: 0px;
     margin: 0px;
-    font-family: Whitney, 'Helvetica Neue','Segoe UI', 'Noto Sans UI', Arial, Helvetica, Roboto, sans-serif;
+    font-family: Karla, Whitney, sans-serif;
     color: #374355;
 	background-color: white;
 	background-size: 100%;
@@ -21,10 +23,6 @@ h1,h2,h3,h4,h5,h6 {
 
 b {
 	font-weight: bold !important;
-}
-
-.fa {
-	font-size: 20px;
 }
 
 hr {
@@ -57,7 +55,6 @@ a {
 	padding-bottom: 7px !important;
 	background-color: rgb(35, 39, 42);
 	color: white;
-    /*background: #eceff4 url("https://nanomotion.github.io/assets/img/logo.svg") no-repeat center left;*/
 }
 
 .navbar a {
@@ -184,7 +181,7 @@ a {
 }
 
 button,.button {
-	font-family: 'Segoe UI', Helvetica, Arial;
+	font-family: Karla, sans-serif;
 	font-size: 16px;
   cursor: pointer;
 	padding: 10px 20px;
@@ -264,7 +261,7 @@ button:hover,.button:hover {
     color: white;
     background-color: #f97d03;
     text-transform: uppercase;
-    font-family: sans-serif;
+    font-family: Karla, sans-serif;
     font-weight: bolder;
     padding: 2.5px 7.5px;
     border-radius: 30px;
@@ -277,7 +274,7 @@ button:hover,.button:hover {
     color: white;
     background-color: #ff1313;
     text-transform: uppercase;
-    font-family: sans-serif;
+    font-family: Karla, sans-serif;
     font-weight: bolder;
     padding: 2.5px 7.5px;
     border-radius: 30px;
@@ -290,7 +287,7 @@ button:hover,.button:hover {
     color: white;
     background-color: #28B3CA;
     text-transform: uppercase;
-    font-family: sans-serif;
+    font-family: Karla, sans-serif;
     font-weight: bolder;
     padding: 2.5px 7.5px;
     border-radius: 30px;
