@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css?family=Karla');
+
+html {
+    height: 100%;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    position: relative;
+    padding-bottom: 1.15rem;
+    min-height: 100%;
+    background: linear-gradient(135deg, #36D1DC, #5B86E5);
+    color: white;
+}
+
+* {
+    font-family: 'Karla', sans-serif;
+    font-weight: normal;
+}
+
+*[nomobile] {
+    display: none;
+}
+
+a {
+    color: white;
+}
+
+b {
+    font-weight: bold;
+}
+
+.main {
+    padding: 0 20px;
+    font-size: 150%;
+}
+
+.logo {
+    height: 48px;
+    width: 48px;
+    background: white;
+    border-radius: 100px;
+    padding: 5px;
+    position: relative;
+    top: 14px;
+}
+
+.social {
+    font-size: 85%;
+    margin-top: 25px;
+}
+
+footer {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 0px 1rem;
+    background-color: #333434;
+    color: white;
+
+}
+
+footer p {
+    float: left;
+    color: white;
+    margin: 1em;
+}
+
+footer p.right {
+    float: right;
+}
+
+button, .button {
+    padding: 7px;
+    border: 1px solid white;
+    border-radius: 5px;
+    color: white;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+button:hover, .button:hover {
+    background-color: white;
+    color: black;
+}
+
+@media (max-width: 550px) {
+    footer p {
+        float: none;
+        text-align: center;
+    }
+
+    footer p.right {
+        float: none;
+        text-align: center;
+    }
+
+    .main {
+        font-size: 135%;
+    }
+}
+
+@media (max-width: 320px) {
+    body {
+        padding-bottom: 1.6rem;
+    }
+
+    .main {
+        font-size: 115%;
+    }
+}
