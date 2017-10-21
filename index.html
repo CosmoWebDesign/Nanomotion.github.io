@@ -1,48 +1,52 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Nanomotion</title>
-    <link rel="stylesheet" href="/assets/homepage.css">
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta property="og:site_name" content="Nanomotion">
+    <meta name="description" content="I'm a full-stack developer who creates things like websites and Discord bots.">
+    <meta property="og:site_name" content="nanomotion.github.io">
     <meta property="og:title" content="Nanomotion">
-    <meta property="og:description" content="Free, open-sourced software for everybody.">
+    <meta property="og:description" content="I'm a full-stack developer who creates things like websites and Discord bots.">
     <meta property="og:image" content="https://avatars3.githubusercontent.com/u/19719195?v=4&s=460">
     <meta property="og:image:type" content="image/png">
     <meta property="og:image:width" content="900">
     <meta property="og:image:height" content="900">
-    <script src="https://use.fontawesome.com/f47a842f2a.js"></script>
+    <title>Nanomotion</title>
+    <link rel="stylesheet" href="/assets/homepage.css">
+    <script async src="https://use.fontawesome.com/f47a842f2a.js"></script>
+    <script async src="/assets/nav.js"></script>
 </head>
 <body>
     <div class="sidenav">
         <a class="closebtn" onclick="closeNav()">&times;</a>
         <h2>Nanomotion</h2>
-        <a href="/contact"><i class="fa fa-phone" style="padding: 0"></i>&nbsp;&nbsp;Contact</a>
+        <a href="/contact/"><i class="fa fa-phone" style="padding: 0"></i>&nbsp;&nbsp;Contact</a>
         <a href="https://github.com/Nanomotion?tab=repositories"><i class="fa fa-code-fork" style="padding: 0"></i>&nbsp;&nbsp;Projects</a>
-        <a href="https://github.com/Nanomotion"><i class="fa fa-github" style="padding: 0"></i>&nbsp;&nbsp;GitHub</a>
-        <a href="/terms"><i class="fa fa-handshake-o"  style="padding: 0"></i>&nbsp;&nbsp;Terms of Service</a>
+        <a href="https://github.com/Nanomotion/"><i class="fa fa-github" style="padding: 0"></i>&nbsp;&nbsp;GitHub</a>
+        <a href="/terms/"><i class="fa fa-handshake-o" style="padding: 0"></i>&nbsp;&nbsp;Terms of Service</a>
         <h2>Project Links</h2>
-        <a href="https://nanobot-discord.github.io">NanoBot</a>
+        <a href="https://nanobot-discord.github.io/">NanoBot</a>
         <a href="http://ggez.gq">ggEZ</a>
-        <a href="https://what-phone.github.io">What Phone</a>
-        <a href="https://nanomotion.github.io/NanoIDE-online">NanoIDE Online</a>
+        <a href="https://what-phone.github.io/">What Phone</a>
+        <a href="https://nanomotion.github.io/NanoDocs/">NanoDocs</a>
         <br><br>
-        <a style="text-decoration: underline" href="/legacy">Use Legacy Site</a>
+        <a style="text-decoration: underline" href="/legacy/">Use Legacy Site</a>
     </div>
     <header>
         <span onclick="openNav()">&#9776;</span>
     </header>
     <div class="main-content center-all">
-        <img src="https://nanomotion.github.io/assets/img/logo.svg" class="logo">
+        <img src="https://nanomotion.github.io/assets/img/logo.svg" class="logo" alt="">
         <h1 class="title">Nanomotion</h1>
         <h2 class="title">Open-sourced &amp; full-stack developer</h2>
         <div class="button-container"><a class="button" href="https://github.com/Nanomotion?tab=repositories">My Projects</a></div>
         <p class="social">
             <a href="mailto:admin@nanomotion.xyz"><i class="fa fa-envelope"></i></a>&nbsp;&nbsp;
-            <a href="https://github.com/Nanomotion"><i class="fa fa-github"></i></a>&nbsp;&nbsp;
-            <a href="https://twiiter.com/Nanomotion"><i class="fa fa-twitter"></i></a>&nbsp;&nbsp;
+            <a href="https://github.com/Nanomotion/"><i class="fa fa-github"></i></a>&nbsp;&nbsp;
+            <a href="https://twitter.com/NanoDev_/"><i class="fa fa-twitter"></i></a>&nbsp;&nbsp;
             <a href="https://youtube.com/channel/UCJDigUrQcjr7-v-3eQ3b2TQ"><i class="fa fa-youtube-play"></i></a>&nbsp;&nbsp;
-            <a href="https://twitch.tv/derplayzz"><i class="fa fa-twitch"></i></a>
+            <a href="https://twitch.tv/derplayzz/"><i class="fa fa-twitch"></i></a>
         </p>
     </div>
     <footer>
@@ -54,14 +58,5 @@
             </a>
         </p>
     </footer>
-    <script>
-        function openNav() {
-            document.getElementsByClassName("sidenav")[0].style.width = "250px";
-        }
-
-        function closeNav() {
-            document.getElementsByClassName("sidenav")[0].style.width = "0";
-        }
-</script>
 </body>
 </html>
