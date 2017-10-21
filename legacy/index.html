@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Nanomotion</title>
+    <link rel="stylesheet" href="https://nanomotion.github.io/assets/css/home.css">
+    <link href="https://nanomotion.github.io/favicon.ico" rel="shortcut icon" type="image/x-icon">
+    <script async src="https://use.fontawesome.com/f47a842f2a.js"></script>
+    <meta name="keywords" content="nanomotion, github, nanomotion.github.io, software, python, discord, discord bot, discord bots, visual basic, html, coding, programming">
+    <meta name="description" content="Quality, open-sourced software for everyone.">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Open Graph Protocol - http://ogp.me/ -->
+    <meta property="og:site_name" content="Nanomotion">
+    <meta property="og:title" content="Nanomotion">
+    <meta property="og:description" content="A Python programmer and web developer that makes open-sourced software for anyone to use.">
+    <meta property="og:image" content="https://avatars3.githubusercontent.com/u/19719195?v=4&s=460">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:width" content="1800">
+    <meta property="og:image:height" content="1800">
+    <!-- Global Site Tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-89117598-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'UA-89117598-1');
+    </script>
+    <style>
+      #main-container {
+        background: linear-gradient(120deg, #155799, #159957);
+      }
+      .nav-logo {
+        background: white;
+        border-radius: 100px;
+        padding: 2px;
+        position: relative;
+        bottom: 3px;
+      }
+      .footer-link {
+        color: #666666 !important;
+      }
+    </style>
+  </head>
+  <body onresize="document.getElementsByClassName('main-container')[0].setAttribute('style', 'height: ' + String(window.innerHeight) + 'px;');">
+    <div class="main-container" id="main-container">
+      <div class="unsupported-browser-notif" id="unsupported-browser-notif" style="background-color: #F28D28; !important">
+        <span onclick="this.parentElement.style.display='none';" style="float: right; cursor: pointer;">&times;</span>
+        <img src="/assets/img/icons8-Autumn-64.png" style="position: relative; top: 5px;" draggable="false" height="18" width="18">
+        <span> Happy Halloween!</span>
+      </div>
+      <noscript><div class="unsupported-browser-notif" id="unsupported-browser-notif"><span onclick="this.parentElement.style.display='none';" style="float: right; cursor: pointer;">&times;</span><strong>Hey there!</strong> It seems that you're using an unsupported browser. Please use a different browser such as <u><a href="https://www.google.com/chrome/">Google Chrome</a></u> or <u><a href="https://www.mozilla.com/firefox">Firefox</a></u>.</div></noscript>
+      <div class="navbar" style="background-color: rgba(0,0,0,0); color: white !important;">
+        <img class="nav-logo" src="https://nanomotion.github.io/assets/img/logo.svg">
+        <a style="position: relative; bottom: 12px;"  hidemob href="/">Nanomotion</a>
+        <a href="#projects" class="products right white-btn">Products</a>
+        <a hidemob href="https://discord.gg/eDRnXd6" class="right">Discord</a>
+        <a hidesmallmob href="https://nanobot-discord.github.io" class="right">NanoBot</a>
+      </div>
+      <div class="main" style="margin-top: 100px !important;background: white;border-radius: 7px;color: black;max-width: 500px;margin: auto;padding: 20px;">  
+        <h1 class="title shake" style="font-size: 2.5em;">Nanomotion</h1>
+        <h2 id="about" style="margin: auto 15%;">Free, open-sourced software for everybody.</h2><br><br>
+        <button style="width: 200px;" onClick="document.location = '#projects';">Projects</button>&nbsp;
+        <button style="width: 200px;" onClick="document.location = 'https://github.com/Nanomotion?tab=repositories';">GitHub</button><br>
+      </div>
+    </div>
+    <script async>
+      document.getElementsByClassName('main-container')[0].setAttribute('style', 'min-height: ' + String(window.innerHeight) + 'px;');
+    </script>
+    <!-- Begin Projects -->
+    <a name="projects"></a>
+    <div class="context">
+      <center>
+        <div class="project-header">
+          <h1 class="title">My Projects</h1>
+          <h2>Here's some of the work I've done</h2>
+        </div>
+        <ul class="help-topic-area">
+          <li class="help-topic">
+            <a href="https://nanomotion.github.io/pages/bot">NanoBot</a>
+            <span class="text-badge-blue">Featured</span>
+            <span hidemob class="description">A music, fun, and moderation bot for Discord, written in <i>discord.py</i>.</span>
+          </li>
+          <li class="help-topic">
+            <a href="https://github.com/Nanomotion/overwatch.py">Overwatch.py</a>
+            <span class="text-badge-orange">New</span>
+            <span hidemob class="description">A Python wrapper for fetching game info from <i>overwatch-api.net</i>.</span>
+          </li>
+          <li class="help-topic">
+            <a href="https://github.com/Nanomotion/discord-cfg">Discord.cfg</a>
+            <span class="text-badge-orange">New</span>
+            <span hidemob class="description">A simple, easy way to make Discord bots with one configuration file.</span>
+          </li>
+          <li class="help-topic">
+            <a href="https://github.com/Nanomotion/NanoBrowser">Nano Browser</a>
+            <span hidemob class="description">Browse the internet with this Microsoft Edge-styled browser.</span>
+          </li>
+          <li class="help-topic">
+            <a href="https://github.com/Nanomotion/Nano-Shell">Nano Shell</a>
+            <span hidemob class="description">A simple and easy-to-use console for Python.</span>
+          </li>
+          <li class="help-topic">
+            <a href="https://github.com/Nanomotion/Nano-IDE">Nano IDE</a>
+            <span hidemob class="description">Edit and save files with this modern, customizable text editor.</span>
+          </li>
+          <li class="help-topic">
+            <a href="https://github.com/Nanomotion/NEX-OS">NEX OS</a>
+            <span hidemob class="description">A simple OS made in Visual Basic with a modern UI.</span>
+          </li>
+          <li class="help-topic">
+            <a href="https://one-card.github.io/">OneCard</a>
+            <span hidemob class="description">Your personal online to-do list.</span>
+          </li>
+          <li class="help-topic">
+            <a href="https://card100.github.io/torminal">torminal</a>
+            <span class="text-badge-orange">New</span>
+            <span hidemob class="description">Use git in an online command-line environment.</span>
+          </li>
+        </ul>
+        <br><br>
+        <a class="button" href="https://github.com/Nanomotion?tab=repositories">View More</a>
+        <br><br>
+      </center>
+    </div>
+    <!-- End Projects -->
+    <div class="context">
+      <div class="project-header">
+        <h1 class="title">My Experience</h1>
+        <h2>How long I've been programming</h2>
+      </div>
+      <div class="exp-container">
+        <div class="exp-box">
+          <h2>Python</h2>
+          <h3>4+ Years</h3>
+        </div>
+        <div class="exp-box">
+          <h2>HTML &amp; CSS</h2>
+          <h3>3+ Years</h3>
+        </div>
+        <div class="exp-box">
+          <h2>Visual Basic</h2>
+          <h3>3+ Years</h3>
+        </div>
+      </div>
+    </div>
+    <div class="context">
+      <a href="https://twitter.com/NanoDev_">
+        <div class="twitter-btn" style="max-width: 150px;">Twitter</div>
+      </a>
+      <a href="https://discord.me/nanobot">
+        <div class="discord-btn" style="max-width: 150px;">Discord</div>
+      </a>
+      <a href="https://github.com/Nanomotion">
+        <div class="github-btn" style="max-width: 150px;">GitHub</div>
+      </a>
+      <p>or <a href="mailto:admin@nanomotion.xyz">send an email</a></p>
+    </div>
+    <div class="footer">
+      <p style="float: right;">
+        <a class="footer-link" href="https://github.com/Nanomotion"><i class="fa fa-github"></i></a>&nbsp;
+        <a class="footer-link" href="https://twitter.com/NanoDev_"><i class="fa fa-twitter"></i></a>&nbsp;
+        <a class="footer-link" href="mailto:admin@nanomotion.xyz"><i class="fa fa-envelope-o"></i></a>
+      <p style="font-weight: bold !important;">NANOMOTION</p>
+      <p>Copyright © 2017 Nanomotion, see the <a href="/terms">Terms of Service</a> for more information</p>
+    </div>
+  </body>
+</html>

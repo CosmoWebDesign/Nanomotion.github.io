@@ -2,7 +2,7 @@
 <html>
 <head>
     <title>Nanomotion</title>
-    <link rel="stylesheet" href="./assets/homepage.css">
+    <link rel="stylesheet" href="/assets/homepage.css">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta property="og:site_name" content="Nanomotion">
     <meta property="og:title" content="Nanomotion">
@@ -14,11 +14,31 @@
     <script src="https://use.fontawesome.com/f47a842f2a.js"></script>
 </head>
 <body>
-    <div class="main">
-        <h1>Nanomotion <img src="https://nanomotion.github.io/assets/img/logo.svg" class="logo"></h1>
-        <h2>Free, open-sourced software <br nomobile>for everybody.</h2>
-        <a class="button" href="./projects">My Projects</a>
+    <div class="sidenav">
+        <a class="closebtn" onclick="closeNav()">&times;</a>
+        <h2>Nanomotion</h2>
+        <a href="/contact"><i class="fa fa-phone" style="padding: 0"></i>&nbsp;&nbsp;Contact</a>
+        <a href="https://github.com/Nanomotion?tab=repositories"><i class="fa fa-code-fork" style="padding: 0"></i>&nbsp;&nbsp;Projects</a>
+        <a href="https://github.com/Nanomotion"><i class="fa fa-github" style="padding: 0"></i>&nbsp;&nbsp;GitHub</a>
+        <a href="/terms"><i class="fa fa-handshake-o" style="padding: 0"></i>&nbsp;&nbsp;Terms of Service</a>
+        <h2>Project Links</h2>
+        <a href="https://nanobot-discord.github.io">NanoBot</a>
+        <a href="http://ggez.gq">ggEZ</a>
+        <a href="https://what-phone.github.io">What Phone</a>
+        <a href="https://nanomotion.github.io/NanoIDE-online">NanoIDE Online</a>
+        <br><br>
+        <a style="text-decoration: underline" href="/legacy">Use Legacy Site</a>
+    </div>
+    <header>
+        <span onclick="openNav()">&#9776;</span>
+    </header>
+    <div class="main-content center-all">
+        <img src="https://nanomotion.github.io/assets/img/logo.svg" class="logo">
+        <h1 class="title">Nanomotion</h1>
+        <h2 class="title">Open-sourced &amp; full-stack developer</h2>
+        <div class="button-container"><a class="button" href="https://github.com/Nanomotion?tab=repositories">My Projects</a></div>
         <p class="social">
+            <a href="mailto:admin@nanomotion.xyz"><i class="fa fa-envelope"></i></a>&nbsp;&nbsp;
             <a href="https://github.com/Nanomotion"><i class="fa fa-github"></i></a>&nbsp;&nbsp;
             <a href="https://twiiter.com/Nanomotion"><i class="fa fa-twitter"></i></a>&nbsp;&nbsp;
             <a href="https://youtube.com/channel/UCJDigUrQcjr7-v-3eQ3b2TQ"><i class="fa fa-youtube-play"></i></a>&nbsp;&nbsp;
@@ -26,7 +46,22 @@
         </p>
     </div>
     <footer>
-        <p>Copyright &copy; 2017 Nanomotion</p>
+        <p class="right">
+            <a href="https://github.com/Nanomotion/Nanomotion.github.io">
+                <i class="fa fa-code"></i> with
+                <i class="fa fa-heart-o"></i> powered by
+                <i class="fa fa-github"></i>
+            </a>
+        </p>
     </footer>
+    <script>
+        function openNav() {
+            document.getElementsByClassName("sidenav")[0].style.width = "250px";
+        }
+
+        function closeNav() {
+            document.getElementsByClassName("sidenav")[0].style.width = "0";
+        }
+</script>
 </body>
 </html>
